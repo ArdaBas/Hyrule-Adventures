@@ -1,0 +1,1366 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 504,
+  height = 495,
+  tileset = "light_world",
+  music = "village",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 504,
+  height = 496,
+  pattern = "grass.soil",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 96,
+  width = 64,
+  height = 16,
+  pattern = "grass.cliff.1",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 80,
+  width = 64,
+  height = 16,
+  pattern = "cliff.1",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 72,
+  width = 64,
+  height = 8,
+  pattern = "cliff.top.1",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 64,
+  width = 56,
+  height = 8,
+  pattern = "grass.cliff.top.1",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 0,
+  width = 480,
+  height = 32,
+  pattern = "grass.tree_small.green.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 32,
+  width = 32,
+  height = 416,
+  pattern = "grass.tree_small.green.2",
+}
+
+tile{
+  layer = 0,
+  x = 472,
+  y = 32,
+  width = 32,
+  height = 448,
+  pattern = "grass.tree_small.green.2",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 32,
+  width = 96,
+  height = 64,
+  pattern = "grass.barrier.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 96,
+  width = 24,
+  height = 16,
+  pattern = "house.wall.window",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 96,
+  width = 24,
+  height = 16,
+  pattern = "house.wall.window",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 96,
+  width = 8,
+  height = 16,
+  pattern = "house.entrance.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 112,
+  width = 32,
+  height = 8,
+  pattern = "house.entrance.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 96,
+  width = 8,
+  height = 16,
+  pattern = "house.entrance.border.3",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "house.entrance",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 88,
+  width = 8,
+  height = 24,
+  pattern = "house.wall.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 88,
+  width = 8,
+  height = 24,
+  pattern = "house.wall.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 112,
+  width = 16,
+  height = 8,
+  pattern = "house.slab",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 120,
+  width = 32,
+  height = 8,
+  pattern = "house.slab",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 128,
+  width = 32,
+  height = 112,
+  pattern = "slab.1",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 240,
+  width = 336,
+  height = 32,
+  pattern = "slab.1",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 128,
+  width = 32,
+  height = 112,
+  pattern = "slab.1",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 128,
+  width = 32,
+  height = 112,
+  pattern = "slab.1",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 96,
+  width = 24,
+  height = 16,
+  pattern = "house.wall.window",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 96,
+  width = 24,
+  height = 16,
+  pattern = "house.wall.window",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 88,
+  width = 8,
+  height = 24,
+  pattern = "house.wall.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 88,
+  width = 8,
+  height = 24,
+  pattern = "house.wall.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 96,
+  width = 8,
+  height = 16,
+  pattern = "house.entrance.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 112,
+  width = 32,
+  height = 8,
+  pattern = "house.entrance.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 96,
+  width = 8,
+  height = 16,
+  pattern = "house.entrance.border.3",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "house.entrance",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 40,
+  width = 96,
+  height = 48,
+  pattern = "grass.barrier.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 112,
+  width = 16,
+  height = 8,
+  pattern = "house.slab",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 120,
+  width = 32,
+  height = 8,
+  pattern = "house.slab",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 32,
+  width = 96,
+  height = 64,
+  pattern = "grass.barrier.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 88,
+  width = 8,
+  height = 24,
+  pattern = "house.wall.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 96,
+  width = 24,
+  height = 16,
+  pattern = "house.wall.window",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 96,
+  width = 24,
+  height = 16,
+  pattern = "house.wall.window",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 96,
+  width = 8,
+  height = 16,
+  pattern = "house.entrance.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 112,
+  width = 32,
+  height = 8,
+  pattern = "house.entrance.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 96,
+  width = 8,
+  height = 16,
+  pattern = "house.entrance.border.3",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "house.entrance",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 88,
+  width = 8,
+  height = 24,
+  pattern = "house.wall.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 112,
+  width = 16,
+  height = 8,
+  pattern = "house.slab",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 120,
+  width = 32,
+  height = 8,
+  pattern = "house.slab",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 272,
+  width = 32,
+  height = 224,
+  pattern = "slab.2",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 96,
+  width = 48,
+  height = 16,
+  pattern = "grass.cliff.1",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 80,
+  width = 48,
+  height = 16,
+  pattern = "cliff.1",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 72,
+  width = 48,
+  height = 8,
+  pattern = "cliff.top.1",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 64,
+  width = 48,
+  height = 8,
+  pattern = "grass.cliff.top.1",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 96,
+  width = 32,
+  height = 16,
+  pattern = "grass.cliff.1",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 80,
+  width = 32,
+  height = 16,
+  pattern = "cliff.1",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 72,
+  width = 32,
+  height = 8,
+  pattern = "cliff.top.1",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 64,
+  width = 32,
+  height = 8,
+  pattern = "grass.cliff.top.1",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 72,
+  width = 16,
+  height = 40,
+  pattern = "ladder",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 72,
+  width = 8,
+  height = 40,
+  pattern = "ladder.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 72,
+  width = 8,
+  height = 40,
+  pattern = "ladder.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 72,
+  width = 16,
+  height = 40,
+  pattern = "ladder",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 72,
+  width = 8,
+  height = 40,
+  pattern = "ladder.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 72,
+  width = 8,
+  height = 40,
+  pattern = "ladder.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 432,
+  width = 192,
+  height = 64,
+  pattern = "grass.tree_small.green.2",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 432,
+  width = 192,
+  height = 64,
+  pattern = "grass.tree_small.green.2",
+}
+
+wall{
+  layer = 0,
+  x = 440,
+  y = 72,
+  width = 16,
+  height = 40,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+sensor{
+  name = "to_layer_1_sensor",
+  layer = 0,
+  x = 448,
+  y = 101,
+  width = 16,
+  height = 16,
+}
+
+crystal{
+  layer = 0,
+  x = 448,
+  y = 53,
+}
+
+crystal_block{
+  layer = 0,
+  x = 32,
+  y = 368,
+  width = 432,
+  height = 16,
+  subtype = 1,
+}
+
+jumper{
+  layer = 0,
+  x = 128,
+  y = 64,
+  width = 24,
+  height = 8,
+  direction = 6,
+  jump_length = 64,
+}
+
+jumper{
+  layer = 0,
+  x = 272,
+  y = 56,
+  width = 56,
+  height = 8,
+  direction = 6,
+  jump_length = 56,
+}
+
+destination{
+  layer = 0,
+  x = 80,
+  y = 125,
+  direction = 3,
+}
+
+wall{
+  layer = 0,
+  x = 160,
+  y = 72,
+  width = 16,
+  height = 40,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+sensor{
+  name = "to_layer_1_sensor_2",
+  layer = 0,
+  x = 168,
+  y = 101,
+  width = 16,
+  height = 16,
+}
+
+chest{
+  layer = 0,
+  x = 136,
+  y = 45,
+  treasure_name = "shield",
+  treasure_savegame_variable = "e3211",
+  sprite = "entities/chest",
+}
+
+teletransporter{
+  layer = 0,
+  x = 224,
+  y = 88,
+  width = 16,
+  height = 16,
+  destination_map = "house/a1_shop",
+}
+
+destination{
+  name = "from_shop_a1",
+  layer = 0,
+  x = 232,
+  y = 125,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 72,
+  y = 88,
+  width = 16,
+  height = 16,
+  destination_map = "house/Links_house",
+  destination = "from_out",
+}
+
+destructible{
+  layer = 0,
+  x = 56,
+  y = 125,
+  treasure_name = "random_rupee",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+teletransporter{
+  layer = 0,
+  x = 224,
+  y = 480,
+  width = 32,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "Outside/a2",
+  destination = "from_a1",
+}
+
+destructible{
+  layer = 0,
+  x = 40,
+  y = 125,
+  treasure_name = "random_rupee",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 400,
+  y = 125,
+  treasure_name = "random_rupee",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 416,
+  y = 125,
+  treasure_name = "random_rupee",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 40,
+  width = 48,
+  height = 24,
+  pattern = "house.roof_blue.top",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 40,
+  width = 8,
+  height = 24,
+  pattern = "house.roof_blue",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 64,
+  width = 8,
+  height = 24,
+  pattern = "house.roof_blue.corner.3b",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 64,
+  width = 48,
+  height = 8,
+  pattern = "house.roof_blue.top.2",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 72,
+  width = 64,
+  height = 16,
+  pattern = "house.roof_blue",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "house.roof.circle",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "house.roof.circle",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "house.roof_blue.top.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 40,
+  width = 8,
+  height = 32,
+  pattern = "house.roof_blue.4",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 72,
+  width = 8,
+  height = 16,
+  pattern = "house.roof_blue.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 88,
+  width = 80,
+  height = 8,
+  pattern = "house.roof_blue.2",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 40,
+  width = 8,
+  height = 24,
+  pattern = "house.roof_blue.top.4",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 40,
+  width = 8,
+  height = 24,
+  pattern = "house.roof_blue.top.3",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "house.roof_blue.top.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 72,
+  width = 8,
+  height = 16,
+  pattern = "house.roof_blue.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 32,
+  width = 48,
+  height = 8,
+  pattern = "house.roof_blue.1",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 32,
+  width = 24,
+  height = 8,
+  pattern = "house.roof_blue.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 40,
+  width = 8,
+  height = 32,
+  pattern = "house.roof_blue.3",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 40,
+  width = 8,
+  height = 24,
+  pattern = "house.roof_blue",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 32,
+  width = 24,
+  height = 8,
+  pattern = "house.roof_blue.corner.1",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "house.roof.circle",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 80,
+  width = 32,
+  height = 16,
+  pattern = "house.entrance.top",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 64,
+  width = 8,
+  height = 24,
+  pattern = "house.roof_blue.corner.4b",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "house.roof.circle",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 40,
+  width = 80,
+  height = 48,
+  pattern = "house.roof_wood",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 32,
+  width = 80,
+  height = 8,
+  pattern = "house.roof_wood.1",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "house.roof_wood.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 88,
+  width = 80,
+  height = 8,
+  pattern = "house.roof_wood.2",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "house.roof_wood.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "house.roof_wood.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 80,
+  width = 32,
+  height = 16,
+  pattern = "house.entrance.top",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "house.roof_wood.corner.1",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 40,
+  width = 8,
+  height = 48,
+  pattern = "house.roof_wood.3",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 40,
+  width = 8,
+  height = 48,
+  pattern = "house.roof_wood.4",
+}
+
+tile{
+  layer = 1,
+  x = 344,
+  y = 72,
+  width = 64,
+  height = 16,
+  pattern = "house.roof_red",
+}
+
+tile{
+  layer = 1,
+  x = 352,
+  y = 40,
+  width = 48,
+  height = 24,
+  pattern = "house.roof_red.top",
+}
+
+tile{
+  layer = 1,
+  x = 336,
+  y = 88,
+  width = 80,
+  height = 8,
+  pattern = "house.roof_red.2",
+}
+
+tile{
+  layer = 1,
+  x = 360,
+  y = 80,
+  width = 32,
+  height = 16,
+  pattern = "house.entrance.top",
+}
+
+tile{
+  layer = 1,
+  x = 328,
+  y = 32,
+  width = 24,
+  height = 8,
+  pattern = "house.roof_red.corner.1",
+}
+
+tile{
+  layer = 1,
+  x = 344,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "house.roof_red.top.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 416,
+  y = 72,
+  width = 8,
+  height = 16,
+  pattern = "house.roof_red.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 336,
+  y = 64,
+  width = 8,
+  height = 24,
+  pattern = "house.roof_red.corner.3b",
+}
+
+tile{
+  layer = 1,
+  x = 352,
+  y = 64,
+  width = 48,
+  height = 8,
+  pattern = "house.roof_red.top.2",
+}
+
+tile{
+  layer = 1,
+  x = 392,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "house.roof.circle",
+}
+
+tile{
+  layer = 1,
+  x = 352,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "house.roof.circle",
+}
+
+tile{
+  layer = 1,
+  x = 392,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "house.roof.circle",
+}
+
+tile{
+  layer = 1,
+  x = 336,
+  y = 40,
+  width = 8,
+  height = 24,
+  pattern = "house.roof_red",
+}
+
+tile{
+  layer = 1,
+  x = 416,
+  y = 40,
+  width = 8,
+  height = 32,
+  pattern = "house.roof_red.4",
+}
+
+tile{
+  layer = 1,
+  x = 352,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "house.roof.circle",
+}
+
+tile{
+  layer = 1,
+  x = 352,
+  y = 32,
+  width = 48,
+  height = 8,
+  pattern = "house.roof_red.1",
+}
+
+tile{
+  layer = 1,
+  x = 400,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "house.roof_red.top.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 408,
+  y = 40,
+  width = 8,
+  height = 24,
+  pattern = "house.roof_red",
+}
+
+tile{
+  layer = 1,
+  x = 400,
+  y = 40,
+  width = 8,
+  height = 24,
+  pattern = "house.roof_red.top.4",
+}
+
+tile{
+  layer = 1,
+  x = 344,
+  y = 40,
+  width = 8,
+  height = 24,
+  pattern = "house.roof_red.top.3",
+}
+
+tile{
+  layer = 1,
+  x = 400,
+  y = 32,
+  width = 24,
+  height = 8,
+  pattern = "house.roof_red.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 328,
+  y = 72,
+  width = 8,
+  height = 16,
+  pattern = "house.roof_red.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 328,
+  y = 40,
+  width = 8,
+  height = 32,
+  pattern = "house.roof_red.3",
+}
+
+tile{
+  layer = 1,
+  x = 408,
+  y = 64,
+  width = 8,
+  height = 24,
+  pattern = "house.roof_red.corner.4b",
+}
+
+dynamic_tile{
+  name = "invisible_tile_2",
+  layer = 1,
+  x = 440,
+  y = 64,
+  pattern = "ladder",
+  width = 16,
+  height = 40,
+  enabled_at_start = true,
+}
+
+wall{
+  layer = 1,
+  x = 440,
+  y = 64,
+  width = 16,
+  height = 40,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+dynamic_tile{
+  name = "invisible_tile",
+  layer = 1,
+  x = 432,
+  y = 64,
+  pattern = "ladder.border.1",
+  width = 8,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "invisible_tile_3",
+  layer = 1,
+  x = 456,
+  y = 64,
+  pattern = "ladder.border.2",
+  width = 8,
+  height = 16,
+  enabled_at_start = true,
+}
+
+sensor{
+  name = "to_layer_0_sensor",
+  layer = 1,
+  x = 448,
+  y = 109,
+  width = 16,
+  height = 16,
+}
+
+dynamic_tile{
+  name = "invisible_tile_4",
+  layer = 1,
+  x = 160,
+  y = 64,
+  pattern = "ladder",
+  width = 16,
+  height = 40,
+  enabled_at_start = true,
+}
+
+wall{
+  layer = 1,
+  x = 160,
+  y = 64,
+  width = 16,
+  height = 40,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+dynamic_tile{
+  name = "invisible_tile_5",
+  layer = 1,
+  x = 152,
+  y = 64,
+  pattern = "ladder.border.1",
+  width = 8,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "invisible_tile_6",
+  layer = 1,
+  x = 176,
+  y = 64,
+  pattern = "ladder.border.2",
+  width = 8,
+  height = 16,
+  enabled_at_start = true,
+}
+
+sensor{
+  name = "to_layer_0_sensor_2",
+  layer = 1,
+  x = 168,
+  y = 109,
+  width = 16,
+  height = 16,
+}
+

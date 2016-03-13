@@ -1,0 +1,97 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 520,
+  height = 472,
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 520,
+  height = 472,
+  pattern = "grass.soil",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 336,
+  width = 16,
+  height = 8,
+  pattern = "grass.stairs_down.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 344,
+  width = 16,
+  height = 24,
+  pattern = "grass.stairs_down.1",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 336,
+  width = 8,
+  height = 32,
+  pattern = "grass.stairs_down.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 336,
+  width = 8,
+  height = 32,
+  pattern = "grass.stairs_down.border.3",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 368,
+  width = 288,
+  height = 16,
+  pattern = "slab.1",
+}
+
+destination{
+  name = "from_cave",
+  layer = 0,
+  x = 56,
+  y = 357,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 48,
+  y = 344,
+  width = 16,
+  height = 16,
+  destination_map = "house/mini_dun1",
+  destination = "from_out",
+}
+
+stairs{
+  layer = 0,
+  x = 48,
+  y = 344,
+  direction = 1,
+  subtype = 3,
+}
+
+tile{
+  layer = 1,
+  x = -640,
+  y = -216,
+  width = 48,
+  height = 16,
+  pattern = "tree.green.2",
+}
+
