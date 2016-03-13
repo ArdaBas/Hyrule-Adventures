@@ -1,0 +1,55 @@
+dialog{
+  id = "_shop.question",
+  text = [[
+You want That?
+$?Yes
+$?No
+]]
+}
+
+dialog{
+  id = "_shop.sword",
+  text = [[
+A Sword!
+]]
+}
+
+dialog{
+  id = "_treasure.shield.1",
+  text = [[
+Its a Shield!
+Your defence is now higher!
+]]
+}
+
+dialog{
+  id = "_treasure.sword.1",
+  text = [[
+You Found a Sword
+The rest is Boring!
+]]
+}
+
+dialog{
+  id = "_treasure.sword.3",
+  text = [[
+  The Master Sword
+]]
+}
+
+dialog{
+  id = "save_quit",
+  text = [[
+Wanna Quit
+$?NO!
+$?YES!!!
+$?Quit but DO NOT save!
+]]
+}
+
+dialog{
+  id = "signs.a2.1",
+  text = [[
+Hyrule Field
+]]
+}
