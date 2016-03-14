@@ -9,10 +9,10 @@ properties{
 
 tile{
   layer = 0,
-  x = 0,
+  x = 32,
   y = 0,
-  width = 496,
-  height = 480,
+  width = 432,
+  height = 16,
   pattern = "grass.soil",
 }
 
@@ -930,10 +930,12 @@ chest{
 teletransporter{
   layer = 0,
   x = 0,
-  y = 480,
+  y = 496,
   width = 496,
   height = 16,
+  transition = "scrolling",
   destination_map = "Outside/a3",
+  destination = "_side",
 }
 
 destructible{
