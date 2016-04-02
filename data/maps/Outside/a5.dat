@@ -8,11 +8,65 @@ properties{
 
 tile{
   layer = 0,
+  x = 32,
+  y = 368,
+  width = 416,
+  height = 48,
+  pattern = "grass.soil",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 368,
+  width = 16,
+  height = 48,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 0,
   x = 0,
   y = 0,
   width = 480,
   height = 416,
   pattern = "grass.soil",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 152,
+  width = 432,
+  height = 48,
+  pattern = "slab.2",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 328,
+  width = 48,
+  height = 80,
+  pattern = "sand.soil",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 32,
+  width = 24,
+  height = 16,
+  pattern = "sand.soil",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 40,
+  width = 16,
+  height = 8,
+  pattern = "sand.soil",
 }
 
 tile{
@@ -121,15 +175,6 @@ tile{
   width = 32,
   height = 8,
   pattern = "house.slab",
-}
-
-tile{
-  layer = 0,
-  x = 0,
-  y = 152,
-  width = 480,
-  height = 48,
-  pattern = "slab.2",
 }
 
 tile{
@@ -386,15 +431,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 448,
-  y = 368,
-  width = 8,
-  height = 48,
-  pattern = "grass.cliff.top.3",
-}
-
-tile{
-  layer = 0,
   x = 456,
   y = 368,
   width = 8,
@@ -463,15 +499,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "grass.shadow.diag.3",
-}
-
-tile{
-  layer = 0,
-  x = 32,
-  y = 368,
-  width = 416,
-  height = 48,
-  pattern = "grass.soil",
 }
 
 tile{
@@ -699,6 +726,105 @@ tile{
   pattern = "grass.cave_entrance_blast.border.2",
 }
 
+tile{
+  layer = 0,
+  x = 424,
+  y = 48,
+  width = 8,
+  height = 288,
+  pattern = "sand.cliff.top.4",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 368,
+  width = 8,
+  height = 48,
+  pattern = "sand.cliff.top.4",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 360,
+  width = 8,
+  height = 8,
+  pattern = "sand.soil.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 408,
+  width = 8,
+  height = 8,
+  pattern = "sand.soil.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 360,
+  width = 24,
+  height = 8,
+  pattern = "sand.soil.1",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 56,
+  width = 48,
+  height = 144,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 0,
+  width = 16,
+  height = 56,
+  pattern = "sand.soil",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 48,
+  width = 32,
+  height = 8,
+  pattern = "sand.soil",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 24,
+  width = 8,
+  height = 24,
+  pattern = "sand.soil",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 200,
+  width = 48,
+  height = 128,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 408,
+  width = 24,
+  height = 8,
+  pattern = "sand.cliff.top.1",
+}
+
 door{
   name = "weak_wall_3",
   layer = 0,
@@ -720,23 +846,6 @@ pickable{
 
 teletransporter{
   layer = 0,
-  x = 80,
-  y = 120,
-  width = 16,
-  height = 16,
-  destination_map = "house/a5_1",
-}
-
-destination{
-  name = "from_bomb",
-  layer = 0,
-  x = 88,
-  y = 149,
-  direction = 3,
-}
-
-teletransporter{
-  layer = 0,
   x = -16,
   y = 0,
   width = 16,
@@ -749,7 +858,7 @@ teletransporter{
 npc{
   layer = 0,
   x = 232,
-  y = 141,
+  y = 133,
   direction = 3,
   subtype = 0,
   behavior = "dialog#_shut",
@@ -764,6 +873,16 @@ teletransporter{
   transition = "scrolling",
   destination_map = "Outside/e1",
   destination = "_side",
+}
+
+npc{
+  layer = 0,
+  x = 368,
+  y = 149,
+  direction = 3,
+  subtype = 0,
+  sprite = "entities/sign",
+  behavior = "dialog#signs.a5.1",
 }
 
 tile{

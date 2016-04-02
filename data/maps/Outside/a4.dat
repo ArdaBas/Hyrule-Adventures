@@ -477,9 +477,9 @@ tile{
 
 tile{
   layer = 0,
-  x = 64,
-  y = 200,
-  width = 64,
+  x = 72,
+  y = 192,
+  width = 32,
   height = 32,
   pattern = "grass.tree_small.green.2",
 }
@@ -2572,6 +2572,33 @@ tile{
   pattern = "grass.tree_small.green.2",
 }
 
+tile{
+  layer = 0,
+  x = 112,
+  y = 0,
+  width = 32,
+  height = 160,
+  pattern = "grass.tree_small.green.2",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 280,
+  width = 32,
+  height = 96,
+  pattern = "grass.tree_small.green.2",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 0,
+  width = 32,
+  height = 32,
+  pattern = "grass.barrier.border.1",
+}
+
 destination{
   layer = 0,
   x = 56,
@@ -2586,15 +2613,17 @@ teletransporter{
   y = 120,
   width = 16,
   height = 16,
-  destination_map = "Outside/a4",
+  destination_map = "house/mini_dun1",
 }
 
 switch{
+  name = "a_switch",
   layer = 0,
   x = 136,
   y = 208,
   subtype = "walkable",
   sprite = "entities/switch",
+  sound = "secret",
   needs_block = true,
   inactivate_when_leaving = true,
 }
@@ -2621,6 +2650,7 @@ teletransporter{
 }
 
 dynamic_tile{
+  name = "go_tile",
   layer = 0,
   x = 176,
   y = 200,
@@ -2628,5 +2658,14 @@ dynamic_tile{
   width = 16,
   height = 48,
   enabled_at_start = true,
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = -16,
+  width = 480,
+  height = 16,
+  destination_map = "Outside/a4",
 }
 
