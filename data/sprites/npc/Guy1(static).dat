@@ -1,0 +1,10 @@
+animation{
+  name = "stopped",
+  src_image = "npc/Guy.png",
+  directions = {
+    { x = 0, y = 8, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 12 },
+    { x = 0, y = 8, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 12 },
+    { x = 0, y = 8, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 12 },
+    { x = 0, y = 8, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 12 },
+  },
+}
