@@ -394,6 +394,38 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "Outside/a1",
+  destination = "from_1",
+}
+
+npc{
+  layer = 1,
+  x = 256,
+  y = 165,
+  direction = 1,
+  subtype = 1,
+  sprite = "npc/Rocekt",
+}
+
+pickable{
+  layer = 1,
+  x = 88,
+  y = 157,
+  treasure_name = "link_toy",
+}
+
+pickable{
+  layer = 1,
+  x = 128,
+  y = 109,
+  treasure_name = "sword",
+}
+
+pickable{
+  layer = 1,
+  x = 128,
+  y = 157,
+  treasure_name = "shield",
+  treasure_variant = 2,
 }
 
 tile{

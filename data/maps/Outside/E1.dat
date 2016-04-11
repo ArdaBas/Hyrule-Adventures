@@ -3,8 +3,19 @@ properties{
   y = 0,
   width = 568,
   height = 712,
+  min_layer = 0,
+  max_layer = 2,
   tileset = "light_world",
-  music = "overworld",
+  music = "dark_mountain",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 256,
+  width = 432,
+  height = 176,
+  pattern = "sand.floor_big",
 }
 
 tile{
@@ -18,7 +29,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 0,
+  x = 16,
   y = 408,
   width = 136,
   height = 272,
@@ -28,7 +39,7 @@ tile{
 tile{
   layer = 0,
   x = 24,
-  y = 416,
+  y = 424,
   width = 512,
   height = 264,
   pattern = "sand.soil",
@@ -254,26 +265,8 @@ tile{
   layer = 0,
   x = 104,
   y = 0,
-  width = 16,
-  height = 16,
-  pattern = "water_shallow.to_dirt.diag.1",
-}
-
-tile{
-  layer = 0,
-  x = 104,
-  y = 0,
   width = 8,
-  height = 8,
-  pattern = "sand.soil",
-}
-
-tile{
-  layer = 0,
-  x = 104,
-  y = 16,
-  width = 8,
-  height = 216,
+  height = 232,
   pattern = "water_shallow.to_dirt.3",
 }
 
@@ -307,37 +300,10 @@ tile{
 tile{
   layer = 0,
   x = 416,
-  y = 16,
+  y = 0,
   width = 8,
-  height = 216,
+  height = 232,
   pattern = "water_shallow.to_dirt.4",
-}
-
-tile{
-  layer = 0,
-  x = 408,
-  y = 0,
-  width = 16,
-  height = 16,
-  pattern = "water_shallow.to_dirt.diag.2",
-}
-
-tile{
-  layer = 0,
-  x = 120,
-  y = 0,
-  width = 288,
-  height = 8,
-  pattern = "water_shallow.to_dirt.1",
-}
-
-tile{
-  layer = 0,
-  x = 416,
-  y = 0,
-  width = 8,
-  height = 8,
-  pattern = "sand.soil",
 }
 
 tile{
@@ -392,15 +358,6 @@ tile{
   width = 16,
   height = 8,
   pattern = "water.wave_big",
-}
-
-tile{
-  layer = 0,
-  x = 104,
-  y = 256,
-  width = 464,
-  height = 160,
-  pattern = "sand.floor_big",
 }
 
 tile{
@@ -1553,6 +1510,33 @@ teletransporter{
   width = 560,
   height = 16,
   destination_map = "Outside/E1",
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = -16,
+  width = 576,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "Outside/E2",
+  destination = "_side",
+}
+
+pickable{
+  layer = 0,
+  x = 96,
+  y = 541,
+  treasure_name = "flippers",
+}
+
+crystal_block{
+  layer = 0,
+  x = 24,
+  y = 696,
+  width = 528,
+  height = 16,
+  subtype = 0,
 }
 
 tile{

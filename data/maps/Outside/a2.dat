@@ -2,9 +2,19 @@ properties{
   x = 0,
   y = 0,
   width = 496,
-  height = 495,
+  height = 496,
+  min_layer = 0,
+  max_layer = 2,
   tileset = "light_world",
-  music = "overworld",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = -16,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4",
 }
 
 tile{
@@ -18,665 +28,296 @@ tile{
 
 tile{
   layer = 0,
-  x = 16,
-  y = 48,
-  width = 16,
-  height = 16,
-  pattern = "cliff.top.border.diag.2",
-}
-
-tile{
-  layer = 0,
-  x = 16,
-  y = 80,
-  width = 16,
-  height = 16,
-  pattern = "grass.cliff.diag.2",
-}
-
-tile{
-  layer = 0,
   x = 0,
-  y = 64,
-  width = 16,
-  height = 16,
-  pattern = "grass.cliff.diag.2",
-}
-
-tile{
-  layer = 0,
-  x = 0,
-  y = 48,
-  width = 16,
-  height = 16,
-  pattern = "grass.cliff.corner_reverse.diag.1",
-}
-
-tile{
-  layer = 0,
-  x = 0,
-  y = 0,
-  width = 16,
-  height = 48,
-  pattern = "grass.cliff.4",
-}
-
-tile{
-  layer = 0,
-  x = 16,
-  y = 0,
-  width = 8,
-  height = 48,
-  pattern = "cliff.top.4",
-}
-
-tile{
-  layer = 0,
-  x = 24,
-  y = 0,
-  width = 8,
-  height = 48,
-  pattern = "grass.cliff.top.4",
-}
-
-tile{
-  layer = 0,
-  x = 24,
-  y = 48,
-  width = 8,
-  height = 8,
-  pattern = "grass.cliff.top.diag.2",
-}
-
-tile{
-  layer = 0,
-  x = 16,
-  y = 64,
-  width = 16,
-  height = 16,
-  pattern = "cliff.diag.2",
-}
-
-tile{
-  layer = 0,
-  x = 24,
-  y = -8,
-  width = 8,
-  height = 8,
-  pattern = "grass.cliff.top.diag.4",
-}
-
-tile{
-  layer = 0,
-  x = 32,
-  y = 80,
-  width = 432,
-  height = 16,
-  pattern = "grass.cliff.1",
-}
-
-tile{
-  layer = 0,
-  x = 32,
-  y = 64,
-  width = 432,
-  height = 16,
-  pattern = "cliff.1",
-}
-
-tile{
-  layer = 0,
-  x = 32,
   y = 56,
-  width = 432,
-  height = 8,
-  pattern = "cliff.top.1",
-}
-
-tile{
-  layer = 0,
-  x = 32,
-  y = 48,
-  width = 432,
-  height = 8,
-  pattern = "grass.cliff.top.1",
+  width = 32,
+  height = 160,
+  pattern = "grass.tree_small.green.1",
 }
 
 tile{
   layer = 0,
   x = 464,
-  y = 80,
-  width = 16,
-  height = 16,
-  pattern = "grass.cliff.diag.1",
-}
-
-tile{
-  layer = 0,
-  x = 464,
-  y = 64,
-  width = 16,
-  height = 16,
-  pattern = "cliff.diag.1",
-}
-
-tile{
-  layer = 0,
-  x = 464,
-  y = 48,
-  width = 16,
-  height = 16,
-  pattern = "cliff.top.border.diag.1",
-}
-
-tile{
-  layer = 0,
-  x = 464,
-  y = 48,
-  width = 8,
-  height = 8,
-  pattern = "grass.cliff.top.diag.1",
-}
-
-tile{
-  layer = 0,
-  x = 480,
-  y = 64,
-  width = 16,
-  height = 16,
-  pattern = "grass.cliff.diag.1",
-}
-
-tile{
-  layer = 0,
-  x = 464,
-  y = 0,
-  width = 8,
-  height = 48,
-  pattern = "grass.cliff.top.3",
-}
-
-tile{
-  layer = 0,
-  x = 472,
-  y = 0,
-  width = 8,
-  height = 48,
-  pattern = "cliff.top.3",
-}
-
-tile{
-  layer = 0,
-  x = 480,
-  y = 0,
-  width = 16,
-  height = 48,
-  pattern = "grass.cliff.3",
-}
-
-tile{
-  layer = 0,
-  x = 480,
-  y = 48,
-  width = 16,
-  height = 16,
-  pattern = "grass.cliff.corner_reverse.diag.2",
-}
-
-tile{
-  layer = 0,
-  x = 240,
   y = 56,
-  width = 16,
-  height = 40,
-  pattern = "ladder",
-}
-
-tile{
-  layer = 0,
-  x = 256,
-  y = 56,
-  width = 8,
-  height = 40,
-  pattern = "ladder.border.2",
-}
-
-tile{
-  layer = 0,
-  x = 232,
-  y = 56,
-  width = 8,
-  height = 40,
-  pattern = "ladder.border.1",
-}
-
-tile{
-  layer = 0,
-  x = 32,
-  y = 152,
-  width = 48,
-  height = 16,
-  pattern = "grass.tree.roots.1",
-}
-
-tile{
-  layer = 0,
-  x = 32,
-  y = 168,
-  width = 48,
-  height = 8,
-  pattern = "grass.tree.roots.2",
-}
-
-tile{
-  layer = 0,
-  x = 32,
-  y = 112,
-  width = 48,
-  height = 40,
-  pattern = "tree.under",
-}
-
-tile{
-  layer = 0,
-  x = 80,
-  y = 144,
-  width = 8,
-  height = 16,
-  pattern = "grass.tree.roots.4",
-}
-
-tile{
-  layer = 0,
-  x = 24,
-  y = 144,
-  width = 8,
-  height = 16,
-  pattern = "grass.tree.roots.3",
-}
-
-tile{
-  layer = 0,
-  x = 32,
-  y = 224,
-  width = 48,
-  height = 16,
-  pattern = "grass.tree.roots.1",
-}
-
-tile{
-  layer = 0,
-  x = 32,
-  y = 240,
-  width = 48,
-  height = 8,
-  pattern = "grass.tree.roots.2",
-}
-
-tile{
-  layer = 0,
-  x = 32,
-  y = 184,
-  width = 48,
-  height = 40,
-  pattern = "tree.under",
-}
-
-tile{
-  layer = 0,
-  x = 80,
-  y = 216,
-  width = 8,
-  height = 16,
-  pattern = "grass.tree.roots.4",
-}
-
-tile{
-  layer = 0,
-  x = 24,
-  y = 216,
-  width = 8,
-  height = 16,
-  pattern = "grass.tree.roots.3",
-}
-
-tile{
-  layer = 0,
-  x = 32,
-  y = 296,
-  width = 48,
-  height = 16,
-  pattern = "grass.tree.roots.1",
-}
-
-tile{
-  layer = 0,
-  x = 32,
-  y = 312,
-  width = 48,
-  height = 8,
-  pattern = "grass.tree.roots.2",
-}
-
-tile{
-  layer = 0,
-  x = 32,
-  y = 256,
-  width = 48,
-  height = 40,
-  pattern = "tree.under",
-}
-
-tile{
-  layer = 0,
-  x = 80,
-  y = 288,
-  width = 8,
-  height = 16,
-  pattern = "grass.tree.roots.4",
-}
-
-tile{
-  layer = 0,
-  x = 24,
-  y = 288,
-  width = 8,
-  height = 16,
-  pattern = "grass.tree.roots.3",
-}
-
-tile{
-  layer = 0,
-  x = 424,
-  y = 152,
-  width = 48,
-  height = 16,
-  pattern = "grass.tree.roots.1",
-}
-
-tile{
-  layer = 0,
-  x = 424,
-  y = 168,
-  width = 48,
-  height = 8,
-  pattern = "grass.tree.roots.2",
-}
-
-tile{
-  layer = 0,
-  x = 424,
-  y = 112,
-  width = 48,
-  height = 40,
-  pattern = "tree.under",
-}
-
-tile{
-  layer = 0,
-  x = 472,
-  y = 144,
-  width = 8,
-  height = 16,
-  pattern = "grass.tree.roots.4",
-}
-
-tile{
-  layer = 0,
-  x = 416,
-  y = 144,
-  width = 8,
-  height = 16,
-  pattern = "grass.tree.roots.3",
-}
-
-tile{
-  layer = 0,
-  x = 424,
-  y = 224,
-  width = 48,
-  height = 16,
-  pattern = "grass.tree.roots.1",
-}
-
-tile{
-  layer = 0,
-  x = 424,
-  y = 240,
-  width = 48,
-  height = 8,
-  pattern = "grass.tree.roots.2",
-}
-
-tile{
-  layer = 0,
-  x = 424,
-  y = 184,
-  width = 48,
-  height = 40,
-  pattern = "tree.under",
-}
-
-tile{
-  layer = 0,
-  x = 472,
-  y = 216,
-  width = 8,
-  height = 16,
-  pattern = "grass.tree.roots.4",
-}
-
-tile{
-  layer = 0,
-  x = 416,
-  y = 216,
-  width = 8,
-  height = 16,
-  pattern = "grass.tree.roots.3",
-}
-
-tile{
-  layer = 0,
-  x = 424,
-  y = 296,
-  width = 48,
-  height = 16,
-  pattern = "grass.tree.roots.1",
-}
-
-tile{
-  layer = 0,
-  x = 424,
-  y = 312,
-  width = 48,
-  height = 8,
-  pattern = "grass.tree.roots.2",
-}
-
-tile{
-  layer = 0,
-  x = 424,
-  y = 256,
-  width = 48,
-  height = 40,
-  pattern = "tree.under",
-}
-
-tile{
-  layer = 0,
-  x = 472,
-  y = 288,
-  width = 8,
-  height = 16,
-  pattern = "grass.tree.roots.4",
-}
-
-tile{
-  layer = 0,
-  x = 416,
-  y = 288,
-  width = 8,
-  height = 16,
-  pattern = "grass.tree.roots.3",
-}
-
-tile{
-  layer = 0,
-  x = 8,
-  y = 312,
-  width = 8,
-  height = 16,
-  pattern = "grass.barrier",
-}
-
-tile{
-  layer = 0,
-  x = 0,
-  y = 312,
-  width = 8,
-  height = 16,
-  pattern = "grass.barrier.border.1",
-}
-
-tile{
-  layer = 0,
-  x = 24,
-  y = 312,
-  width = 8,
-  height = 16,
-  pattern = "grass.barrier",
-}
-
-tile{
-  layer = 0,
-  x = 16,
-  y = 312,
-  width = 8,
-  height = 16,
-  pattern = "grass.barrier.border.1",
-}
-
-tile{
-  layer = 0,
-  x = 40,
-  y = 312,
-  width = 8,
-  height = 16,
-  pattern = "grass.barrier",
-}
-
-tile{
-  layer = 0,
-  x = 32,
-  y = 312,
-  width = 8,
-  height = 16,
-  pattern = "grass.barrier.border.1",
-}
-
-tile{
-  layer = 0,
-  x = 48,
-  y = 312,
-  width = 8,
-  height = 16,
-  pattern = "grass.barrier.border.2",
-}
-
-tile{
-  layer = 0,
-  x = 448,
-  y = 320,
-  width = 8,
-  height = 16,
-  pattern = "grass.barrier",
-}
-
-tile{
-  layer = 0,
-  x = 440,
-  y = 320,
-  width = 8,
-  height = 16,
-  pattern = "grass.barrier.border.1",
-}
-
-tile{
-  layer = 0,
-  x = 464,
-  y = 320,
-  width = 8,
-  height = 16,
-  pattern = "grass.barrier",
-}
-
-tile{
-  layer = 0,
-  x = 456,
-  y = 320,
-  width = 8,
-  height = 16,
-  pattern = "grass.barrier.border.1",
-}
-
-tile{
-  layer = 0,
-  x = 480,
-  y = 320,
-  width = 8,
-  height = 16,
-  pattern = "grass.barrier",
-}
-
-tile{
-  layer = 0,
-  x = 472,
-  y = 320,
-  width = 8,
-  height = 16,
-  pattern = "grass.barrier.border.1",
-}
-
-tile{
-  layer = 0,
-  x = 488,
-  y = 320,
-  width = 8,
-  height = 16,
-  pattern = "grass.barrier.border.2",
-}
-
-tile{
-  layer = 0,
-  x = 224,
-  y = 96,
-  width = 48,
-  height = 400,
-  pattern = "dirt.soil",
-}
-
-tile{
-  layer = 0,
-  x = 0,
-  y = 352,
-  width = 224,
-  height = 48,
-  pattern = "dirt.soil",
-}
-
-tile{
-  layer = 0,
-  x = 272,
-  y = 352,
-  width = 224,
-  height = 48,
-  pattern = "dirt.soil",
+  width = 32,
+  height = 160,
+  pattern = "grass.tree_small.green.1",
 }
 
 tile{
   layer = 0,
   x = 96,
-  y = 216,
+  y = 256,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 312,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 272,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 344,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 360,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 280,
+  width = 32,
+  height = 16,
+  pattern = "grass.flower",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 264,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 352,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 304,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower_double",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower_double",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower_double",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "grass.flower",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 144,
+  width = 16,
+  height = 32,
+  pattern = "grass.flower_double",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 248,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower_double",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 296,
+  width = 32,
+  height = 16,
+  pattern = "grass.flower",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 128,
+  width = 32,
+  height = 16,
+  pattern = "grass.flower",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 32,
+  width = 32,
+  height = 16,
+  pattern = "grass.flower",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 48,
+  width = 32,
+  height = 16,
+  pattern = "grass.flower",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 32,
+  width = 32,
+  height = 16,
+  pattern = "grass.flower",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 328,
+  width = 32,
+  height = 16,
+  pattern = "grass.flower",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 192,
+  width = 32,
+  height = 16,
+  pattern = "grass.flower",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower_double",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 88,
+  width = 32,
+  height = 16,
+  pattern = "grass.flower",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 72,
+  width = 32,
+  height = 16,
+  pattern = "grass.flower",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 448,
+  width = 32,
+  height = 16,
+  pattern = "grass.flower",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 456,
+  width = 32,
+  height = 16,
+  pattern = "grass.flower",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 472,
+  width = 32,
+  height = 16,
+  pattern = "grass.flower",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 440,
   width = 16,
   height = 16,
   pattern = "grass.flower",
@@ -685,118 +326,244 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = 152,
-  width = 16,
-  height = 16,
-  pattern = "grass.flower_double",
-}
-
-tile{
-  layer = 0,
-  x = 160,
-  y = 240,
-  width = 16,
-  height = 16,
-  pattern = "grass.weed_big",
-}
-
-tile{
-  layer = 0,
-  x = 88,
-  y = 144,
-  width = 16,
-  height = 8,
-  pattern = "grass.weed",
-}
-
-tile{
-  layer = 0,
-  x = 320,
-  y = 224,
-  width = 16,
-  height = 16,
-  pattern = "grass.flower_double",
-}
-
-tile{
-  layer = 0,
-  x = 320,
-  y = 152,
-  width = 16,
+  y = 416,
+  width = 32,
   height = 16,
   pattern = "grass.flower",
 }
 
 tile{
   layer = 0,
-  x = 376,
-  y = 248,
-  width = 16,
+  x = 328,
+  y = 472,
+  width = 32,
   height = 16,
-  pattern = "grass.flower_double",
+  pattern = "grass.flower",
 }
 
 tile{
   layer = 0,
-  x = 88,
-  y = 296,
-  width = 16,
+  x = 416,
+  y = 464,
+  width = 32,
+  height = 16,
+  pattern = "grass.flower",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 304,
+  width = 8,
   height = 8,
   pattern = "leaf.2",
 }
 
 tile{
   layer = 0,
-  x = 104,
-  y = 264,
+  x = 128,
+  y = 280,
+  width = 8,
+  height = 16,
+  pattern = "leaf.2",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 160,
   width = 8,
   height = 8,
-  pattern = "leaf.1",
+  pattern = "leaf.2",
 }
 
 tile{
   layer = 0,
-  x = 216,
-  y = 16,
+  x = 240,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "leaf.2",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "leaf.2",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "leaf.2",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "leaf.2",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 200,
   width = 16,
   height = 16,
-  pattern = "grass.under_sign",
+  pattern = "leaf.2",
 }
 
 tile{
   layer = 0,
-  x = 376,
+  x = 352,
+  y = 288,
+  width = 8,
+  height = 8,
+  pattern = "leaf.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 48,
+  width = 496,
+  height = 8,
+  pattern = "water_shallow.to_grass.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 496,
+  height = 48,
+  pattern = "water",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 40,
+  width = 16,
+  height = 8,
+  pattern = "bridge_a.2",
+}
+
+tile{
+  layer = 0,
+  x = 208,
   y = 0,
   width = 16,
-  height = 16,
-  pattern = "grass.hole",
+  height = 40,
+  pattern = "bridge_a",
 }
 
 tile{
   layer = 0,
-  x = 376,
-  y = 32,
+  x = 208,
+  y = 48,
   width = 16,
   height = 16,
-  pattern = "grass.hole",
+  pattern = "bridge_a.2b",
 }
 
 tile{
   layer = 0,
-  x = 392,
+  x = 272,
+  y = 40,
+  width = 16,
+  height = 8,
+  pattern = "bridge_a.2",
+}
+
+tile{
+  layer = 0,
+  x = 272,
   y = 0,
   width = 16,
   height = 48,
-  pattern = "grass.hole",
+  pattern = "bridge_a",
 }
 
 tile{
   layer = 0,
-  x = 360,
-  y = 0,
+  x = 272,
+  y = 48,
   width = 16,
-  height = 48,
-  pattern = "grass.hole",
+  height = 16,
+  pattern = "bridge_a.2b",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 0,
+  width = 48,
+  height = 64,
+  pattern = "bridge_a.slab.4",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 248,
+  width = 32,
+  height = 224,
+  pattern = "grass.tree_small.green.1",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 256,
+  width = 32,
+  height = 224,
+  pattern = "grass.tree_small.green.1",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 408,
+  width = 152,
+  height = 16,
+  pattern = "grass.barrier.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 408,
+  width = 168,
+  height = 16,
+  pattern = "grass.barrier.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 392,
+  width = 8,
+  height = 32,
+  pattern = "grass.barrier.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 392,
+  width = 16,
+  height = 32,
+  pattern = "grass.barrier.border.1",
 }
 
 teletransporter{
@@ -810,120 +577,57 @@ teletransporter{
   destination = "_side",
 }
 
-wall{
+teletransporter{
   layer = 0,
-  x = 240,
-  y = 56,
-  width = 16,
-  height = 40,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
+  x = 0,
+  y = 496,
+  width = 496,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "Outside/a3",
+  destination = "_side",
 }
 
 sensor{
-  name = "to_layer_1_sensor",
+  name = "a_sensor",
   layer = 0,
-  x = 248,
-  y = 85,
-  width = 16,
+  x = 96,
+  y = 405,
+  width = 336,
   height = 16,
-}
-
-wall{
-  layer = 0,
-  x = 72,
-  y = 312,
-  width = 8,
-  height = 184,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 424,
-  y = 312,
-  width = 8,
-  height = 184,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-destination{
-  name = "from_a1",
-  layer = 0,
-  x = 248,
-  y = 29,
-  direction = 3,
-}
-
-enemy{
-  name = "auto_enemy_46",
-  layer = 0,
-  x = 248,
-  y = 301,
-  direction = 3,
-  breed = "sword_soldier_green",
-  treasure_name = "random_magic",
-}
-
-enemy{
-  name = "auto_enemy_47",
-  layer = 0,
-  x = 48,
-  y = 381,
-  direction = 3,
-  breed = "sword_soldier_green",
-  treasure_name = "random_magic",
-}
-
-enemy{
-  name = "auto_enemy_48",
-  layer = 0,
-  x = 456,
-  y = 381,
-  direction = 3,
-  breed = "sword_soldier_green",
-  treasure_name = "random_magic",
 }
 
 npc{
   layer = 0,
-  x = 224,
-  y = 29,
-  direction = 3,
-  subtype = 0,
-  behavior = "dialog#signs.a2.1",
+  x = 248,
+  y = 453,
+  direction = 1,
+  subtype = 1,
+  sprite = "npc/villager2",
 }
 
-crystal_block{
+destination{
+  name = "a_destination",
   layer = 0,
-  x = 72,
-  y = 0,
-  width = 16,
-  height = 48,
-  subtype = 1,
+  x = 248,
+  y = 429,
+  direction = 3,
 }
 
 chest{
   layer = 0,
-  x = 48,
-  y = 29,
-  treasure_name = "hookshot",
-  treasure_savegame_variable = "c4221",
-  sprite = "entities/big_chest",
+  x = 248,
+  y = 469,
+  treasure_name = "lamp",
+  treasure_savegame_variable = "a2aa",
+  sprite = "entities/chest",
+  opening_condition = "a2aa",
 }
 
 destructible{
   layer = 0,
-  x = 352,
-  y = 13,
+  x = 40,
+  y = 221,
   treasure_name = "random",
   sprite = "entities/stone_white",
   destruction_sound = "stone",
@@ -933,8 +637,8 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 352,
-  y = 29,
+  x = 40,
+  y = 237,
   treasure_name = "random",
   sprite = "entities/stone_white",
   destruction_sound = "stone",
@@ -944,8 +648,8 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 352,
-  y = 45,
+  x = 40,
+  y = 253,
   treasure_name = "random",
   sprite = "entities/stone_white",
   destruction_sound = "stone",
@@ -955,16 +659,42 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 224,
-  y = 29,
-  sprite = "entities/sign",
+  x = 456,
+  y = 221,
+  treasure_name = "random",
+  sprite = "entities/stone_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 456,
+  y = 237,
+  treasure_name = "random",
+  sprite = "entities/stone_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 456,
+  y = 253,
+  treasure_name = "random",
+  sprite = "entities/stone_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
 }
 
 wall{
   layer = 0,
-  x = 88,
-  y = 120,
-  width = 328,
+  x = 32,
+  y = 384,
+  width = 432,
   height = 8,
   stops_npcs = true,
   stops_enemies = true,
@@ -972,338 +702,185 @@ wall{
   stops_projectiles = true,
 }
 
-teletransporter{
-  layer = 0,
-  x = 72,
-  y = 480,
-  width = 352,
-  height = 16,
-  transition = "scrolling",
-  destination_map = "Outside/a3",
-}
-
-dynamic_tile{
-  name = "go_tile_1",
-  layer = 0,
-  x = 64,
-  y = 312,
-  pattern = "grass.barrier.border.2",
-  width = 8,
-  height = 176,
-  enabled_at_start = true,
-}
-
-dynamic_tile{
-  name = "go_tile_2",
-  layer = 0,
-  x = 432,
-  y = 312,
-  pattern = "grass.barrier.border.2",
-  width = 8,
-  height = 192,
-  enabled_at_start = true,
-}
-
-pickable{
-  layer = 0,
-  x = 144,
-  y = 21,
-  treasure_name = "bow",
-}
-
-pickable{
-  layer = 0,
-  x = 128,
-  y = 21,
-  treasure_name = "arrow",
-  treasure_variant = 3,
-}
-
-pickable{
-  layer = 0,
-  x = 104,
-  y = 29,
-  treasure_name = "glove",
-}
-
-switch{
-  name = "a_switch",
-  layer = 0,
-  x = 376,
-  y = 16,
-  subtype = "solid",
-  sprite = "entities/solid_switch",
-  sound = "secret",
-  needs_block = false,
-  inactivate_when_leaving = false,
-}
-
-tile{
-  layer = 1,
-  x = 24,
-  y = 104,
-  width = 8,
-  height = 40,
-  pattern = "tree.green.3",
-}
-
-tile{
-  layer = 1,
-  x = 32,
-  y = 96,
-  width = 48,
-  height = 16,
-  pattern = "tree.green.2",
-}
-
-tile{
-  layer = 1,
-  x = 80,
-  y = 104,
-  width = 8,
-  height = 40,
-  pattern = "tree.green.4",
-}
-
-tile{
-  layer = 1,
-  x = 32,
-  y = 112,
-  width = 48,
-  height = 40,
-  pattern = "tree.green.1",
-}
-
-tile{
-  layer = 1,
-  x = 24,
-  y = 176,
-  width = 8,
-  height = 40,
-  pattern = "tree.green.3",
-}
-
-tile{
-  layer = 1,
-  x = 32,
-  y = 168,
-  width = 48,
-  height = 16,
-  pattern = "tree.green.2",
-}
-
-tile{
-  layer = 1,
-  x = 80,
-  y = 176,
-  width = 8,
-  height = 40,
-  pattern = "tree.green.4",
-}
-
-tile{
-  layer = 1,
-  x = 32,
-  y = 184,
-  width = 48,
-  height = 40,
-  pattern = "tree.green.1",
-}
-
-tile{
-  layer = 1,
-  x = 24,
-  y = 248,
-  width = 8,
-  height = 40,
-  pattern = "tree.green.3",
-}
-
-tile{
-  layer = 1,
-  x = 32,
-  y = 240,
-  width = 48,
-  height = 16,
-  pattern = "tree.green.2",
-}
-
-tile{
-  layer = 1,
-  x = 80,
-  y = 248,
-  width = 8,
-  height = 40,
-  pattern = "tree.green.4",
-}
-
-tile{
-  layer = 1,
-  x = 32,
-  y = 256,
-  width = 48,
-  height = 40,
-  pattern = "tree.green.1",
-}
-
-tile{
-  layer = 1,
-  x = 416,
-  y = 104,
-  width = 8,
-  height = 40,
-  pattern = "tree.green.3",
-}
-
-tile{
-  layer = 1,
-  x = 424,
-  y = 96,
-  width = 48,
-  height = 16,
-  pattern = "tree.green.2",
-}
-
-tile{
-  layer = 1,
-  x = 472,
-  y = 104,
-  width = 8,
-  height = 40,
-  pattern = "tree.green.4",
-}
-
-tile{
-  layer = 1,
-  x = 424,
-  y = 112,
-  width = 48,
-  height = 40,
-  pattern = "tree.green.1",
-}
-
-tile{
-  layer = 1,
-  x = 416,
-  y = 176,
-  width = 8,
-  height = 40,
-  pattern = "tree.green.3",
-}
-
-tile{
-  layer = 1,
-  x = 424,
-  y = 168,
-  width = 48,
-  height = 16,
-  pattern = "tree.green.2",
-}
-
-tile{
-  layer = 1,
-  x = 472,
-  y = 176,
-  width = 8,
-  height = 40,
-  pattern = "tree.green.4",
-}
-
-tile{
-  layer = 1,
-  x = 424,
-  y = 184,
-  width = 48,
-  height = 40,
-  pattern = "tree.green.1",
-}
-
-tile{
-  layer = 1,
-  x = 416,
-  y = 248,
-  width = 8,
-  height = 40,
-  pattern = "tree.green.3",
-}
-
-tile{
-  layer = 1,
-  x = 424,
-  y = 240,
-  width = 48,
-  height = 16,
-  pattern = "tree.green.2",
-}
-
-tile{
-  layer = 1,
-  x = 472,
-  y = 248,
-  width = 8,
-  height = 40,
-  pattern = "tree.green.4",
-}
-
-tile{
-  layer = 1,
-  x = 424,
-  y = 256,
-  width = 48,
-  height = 40,
-  pattern = "tree.green.1",
-}
-
-dynamic_tile{
-  name = "invisible_tile_2",
-  layer = 1,
-  x = 240,
-  y = 56,
-  pattern = "ladder",
-  width = 16,
-  height = 40,
-  enabled_at_start = true,
-}
-
 wall{
-  layer = 1,
-  x = 240,
-  y = 56,
-  width = 16,
-  height = 40,
+  layer = 0,
+  x = 224,
+  y = 32,
+  width = 48,
+  height = 8,
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+  stops_projectiles = true,
 }
 
-dynamic_tile{
-  name = "invisible_tile",
-  layer = 1,
-  x = 232,
-  y = 56,
-  pattern = "ladder.border.1",
-  width = 8,
-  height = 40,
-  enabled_at_start = true,
+destructible{
+  layer = 0,
+  x = 32,
+  y = 477,
+  treasure_name = "random",
+  sprite = "entities/stone_black",
+  destruction_sound = "stone",
+  weight = 2,
+  damage_on_enemies = 4,
 }
 
-dynamic_tile{
-  name = "invisible_tile_3",
-  layer = 1,
-  x = 256,
-  y = 56,
-  pattern = "ladder.border.2",
-  width = 8,
-  height = 40,
-  enabled_at_start = true,
+destructible{
+  layer = 0,
+  x = 32,
+  y = 493,
+  treasure_name = "random",
+  sprite = "entities/stone_black",
+  destruction_sound = "stone",
+  weight = 2,
+  damage_on_enemies = 4,
 }
 
-sensor{
-  name = "to_layer_0_sensor",
+destructible{
+  layer = 0,
+  x = 456,
+  y = 477,
+  treasure_name = "random",
+  sprite = "entities/stone_black",
+  destruction_sound = "stone",
+  weight = 2,
+  damage_on_enemies = 4,
+}
+
+destructible{
+  layer = 0,
+  x = 456,
+  y = 493,
+  treasure_name = "random",
+  sprite = "entities/stone_black",
+  destruction_sound = "stone",
+  weight = 2,
+  damage_on_enemies = 4,
+}
+
+destructible{
+  layer = 0,
+  x = 40,
+  y = 429,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 56,
+  y = 429,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 72,
+  y = 429,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 440,
+  y = 421,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 456,
+  y = 421,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+enemy{
+  name = "auto_enemy_7",
+  layer = 0,
+  x = 160,
+  y = 317,
+  direction = 3,
+  breed = "tentacle",
+  treasure_name = "random_heart",
+}
+
+enemy{
+  name = "auto_enemy_5",
+  layer = 0,
+  x = 136,
+  y = 221,
+  direction = 3,
+  breed = "tentacle",
+  treasure_name = "random_heart",
+}
+
+enemy{
+  name = "auto_enemy_6",
+  layer = 0,
+  x = 392,
+  y = 333,
+  direction = 3,
+  breed = "tentacle",
+  treasure_name = "random_heart",
+}
+
+teletransporter{
+  layer = 0,
+  x = -16,
+  y = 0,
+  width = 16,
+  height = 496,
+  destination_map = "Outside/a2",
+}
+
+teletransporter{
+  layer = 0,
+  x = 496,
+  y = 0,
+  width = 16,
+  height = 496,
+  destination_map = "Outside/a2",
+}
+
+wall{
+  layer = 0,
+  x = 88,
+  y = 408,
+  width = 336,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+enemy{
+  name = "auto_enemy_4",
   layer = 1,
   x = 248,
   y = 93,
-  width = 16,
-  height = 16,
+  direction = 3,
+  breed = "tentacle",
+  treasure_name = "random_heart",
 }
 

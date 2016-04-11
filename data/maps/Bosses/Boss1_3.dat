@@ -1,11 +1,12 @@
 properties{
-  x = 300,
-  y = 600,
+  x = 0,
+  y = 0,
   width = 320,
   height = 240,
   min_layer = 0,
   max_layer = 2,
-  tileset = "ice_brightblue",
+  tileset = "water",
+  music = "boss",
 }
 
 tile{
@@ -158,31 +159,111 @@ tile{
   y = 32,
   width = 256,
   height = 176,
-  pattern = "floor.2",
+  pattern = "floor.1",
 }
 
-enemy{
-  name = "auto_enemy_4",
+tile{
   layer = 1,
-  x = 144,
-  y = 93,
-  direction = 3,
-  breed = "tentacle",
-  treasure_name = "random_heart",
+  x = 56,
+  y = 112,
+  width = 8,
+  height = 64,
+  pattern = "barrier.3.2",
 }
 
-chest{
+tile{
   layer = 1,
-  x = 144,
-  y = 109,
-  treasure_name = "sword",
-  sprite = "entities/chest",
+  x = 56,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "barrier.3.border",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 176,
+  width = 184,
+  height = 8,
+  pattern = "barrier.3.1",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "barrier.3.border",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 112,
+  width = 8,
+  height = 64,
+  pattern = "barrier.3.2",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "barrier.3.border",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "barrier.3.border",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 104,
+  width = 184,
+  height = 8,
+  pattern = "barrier.3.1",
+}
+
+teletransporter{
+  layer = 1,
+  x = 152,
+  y = 112,
+  width = 16,
+  height = 16,
+  destination_map = "Bosses/Boss1",
+  sprite = "entities/ice",
+  sound = "warp",
 }
 
 destination{
   layer = 1,
-  x = 144,
-  y = 125,
+  x = 160,
+  y = 173,
   direction = 1,
+}
+
+enemy{
+  layer = 1,
+  x = 160,
+  y = 133,
+  direction = 3,
+  breed = "sand_crab",
+}
+
+pickable{
+  layer = 1,
+  x = 160,
+  y = 173,
+  treasure_name = "shield",
 }
 

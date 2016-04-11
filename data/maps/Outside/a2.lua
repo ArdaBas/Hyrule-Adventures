@@ -1,8 +1,13 @@
 local map = ...
+local game = map:get_game() 
 
-local map = ...
+function a_sensor:on_activated() 
+ 
+  hero:teleport("Outside/a2")  
+end 
 
-function a_switch:on_activated()
-
-  map:set_entities_enabled("go_tile_", false)
-end
+function a_destination:on_activated() 
+ 
+  game:start_dialog("cutscene.a2.1")
+  game:get_item("lamp"):set_variant(1)
+end 

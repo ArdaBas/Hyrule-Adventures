@@ -906,24 +906,6 @@ tile{
   pattern = "floor.1",
 }
 
-custom_entity{
-  layer = 1,
-  x = 184,
-  y = 453,
-  direction = 0,
-  sprite = "entities/fire",
-  model = "fire",
-}
-
-custom_entity{
-  layer = 1,
-  x = 168,
-  y = 453,
-  direction = 0,
-  sprite = "entities/fire",
-  model = "fire",
-}
-
 wall{
   layer = 1,
   x = 288,
@@ -949,7 +931,7 @@ teletransporter{
   y = 216,
   width = 16,
   height = 16,
-  destination_map = "house/mini_dun1",
+  destination_map = "Outside/a3",
 }
 
 enemy{
@@ -998,6 +980,14 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "Outside/a4",
+}
+
+destination{
+  name = "a",
+  layer = 1,
+  x = 600,
+  y = 469,
+  direction = 1,
 }
 
 tile{

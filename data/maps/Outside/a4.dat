@@ -3,8 +3,9 @@ properties{
   y = 0,
   width = 480,
   height = 384,
+  min_layer = 0,
+  max_layer = 2,
   tileset = "light_world",
-  music = "village",
 }
 
 tile{
@@ -477,8 +478,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 72,
-  y = 192,
+  x = 64,
+  y = 160,
   width = 32,
   height = 32,
   pattern = "grass.tree_small.green.2",
@@ -486,8 +487,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 64,
-  y = 248,
+  x = 0,
+  y = 264,
   width = 128,
   height = 32,
   pattern = "grass.tree_small.green.2",
@@ -2583,8 +2584,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 96,
-  y = 280,
+  x = 128,
+  y = 264,
   width = 32,
   height = 96,
   pattern = "grass.tree_small.green.2",
@@ -2595,6 +2596,15 @@ tile{
   x = 456,
   y = 0,
   width = 32,
+  height = 32,
+  pattern = "grass.barrier.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 192,
+  width = 8,
   height = 32,
   pattern = "grass.barrier.border.1",
 }
@@ -2630,8 +2640,8 @@ switch{
 
 block{
   layer = 0,
-  x = 112,
-  y = 245,
+  x = 72,
+  y = 221,
   sprite = "entities/block",
   pushable = true,
   pullable = true,
@@ -2666,6 +2676,13 @@ teletransporter{
   y = -16,
   width = 480,
   height = 16,
-  destination_map = "Outside/a4",
+  destination_map = "Outside/E2",
+}
+
+pickable{
+  layer = 0,
+  x = 24,
+  y = 157,
+  treasure_name = "violin",
 }
 

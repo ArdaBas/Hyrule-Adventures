@@ -1,11 +1,12 @@
 properties{
-  x = 300,
-  y = 600,
+  x = 0,
+  y = 0,
   width = 320,
   height = 240,
   min_layer = 0,
   max_layer = 2,
-  tileset = "ice_brightblue",
+  tileset = "water",
+  music = "dungeon_finished",
 }
 
 tile{
@@ -158,31 +159,113 @@ tile{
   y = 32,
   width = 256,
   height = 176,
-  pattern = "floor.2",
+  pattern = "floor.1",
 }
 
-enemy{
-  name = "auto_enemy_4",
+tile{
   layer = 1,
-  x = 144,
-  y = 93,
-  direction = 3,
-  breed = "tentacle",
-  treasure_name = "random_heart",
+  x = 56,
+  y = 112,
+  width = 8,
+  height = 96,
+  pattern = "barrier.3.2",
 }
 
-chest{
+tile{
   layer = 1,
-  x = 144,
-  y = 109,
-  treasure_name = "sword",
-  sprite = "entities/chest",
+  x = 56,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "barrier.3.border",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "barrier.3.border",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 112,
+  width = 8,
+  height = 96,
+  pattern = "barrier.3.2",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "barrier.3.border",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "barrier.3.border",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 104,
+  width = 184,
+  height = 8,
+  pattern = "barrier.3.1",
 }
 
 destination{
   layer = 1,
-  x = 144,
-  y = 125,
+  x = 160,
+  y = 197,
   direction = 1,
+}
+
+pickable{
+  layer = 1,
+  x = 280,
+  y = 205,
+  treasure_name = "shield",
+}
+
+wall{
+  layer = 1,
+  x = 272,
+  y = 192,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+teletransporter{
+  layer = 1,
+  x = 152,
+  y = 160,
+  width = 16,
+  height = 16,
+  destination_map = "Outside/a1",
+  sprite = "entities/switch",
+}
+
+pickable{
+  layer = 1,
+  x = 160,
+  y = 173,
+  treasure_name = "triforce",
 }
 

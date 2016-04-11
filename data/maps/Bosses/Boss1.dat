@@ -1,0 +1,414 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "water",
+  music = "boss",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 32,
+  width = 256,
+  height = 176,
+  pattern = "floor.1",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 0,
+  width = 272,
+  height = 24,
+  pattern = "wall.1",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 24,
+  width = 24,
+  height = 192,
+  pattern = "wall.3",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 216,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 216,
+  width = 272,
+  height = 24,
+  pattern = "wall.2",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 216,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 24,
+  width = 24,
+  height = 192,
+  pattern = "wall.4",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 24,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 24,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 208,
+  width = 256,
+  height = 8,
+  pattern = "wall_border.2",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 24,
+  width = 256,
+  height = 8,
+  pattern = "wall_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 32,
+  width = 8,
+  height = 176,
+  pattern = "wall_border.3",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 32,
+  width = 8,
+  height = 176,
+  pattern = "wall_border.4",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 112,
+  width = 8,
+  height = 64,
+  pattern = "barrier.3.2",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "barrier.3.border",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 176,
+  width = 184,
+  height = 8,
+  pattern = "barrier.3.1",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "barrier.3.border",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 112,
+  width = 8,
+  height = 64,
+  pattern = "barrier.3.2",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "barrier.3.border",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "barrier.3.border",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 104,
+  width = 184,
+  height = 8,
+  pattern = "barrier.3.1",
+}
+
+wall{
+  layer = 1,
+  x = 48,
+  y = 168,
+  width = 48,
+  height = 24,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+destination{
+  layer = 1,
+  x = 160,
+  y = 197,
+  direction = 1,
+}
+
+pickable{
+  layer = 1,
+  x = 40,
+  y = 205,
+  treasure_name = "sword",
+  treasure_variant = 3,
+}
+
+switch{
+  name = "a_switch",
+  layer = 1,
+  x = 48,
+  y = 192,
+  subtype = "walkable",
+  sprite = "entities/switch",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+wall{
+  layer = 1,
+  x = 32,
+  y = 176,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 1,
+  x = 40,
+  y = 192,
+  width = 8,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+pickable{
+  layer = 1,
+  x = 280,
+  y = 205,
+  treasure_name = "shield",
+}
+
+wall{
+  layer = 1,
+  x = 272,
+  y = 192,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 1,
+  x = 256,
+  y = 176,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+teletransporter{
+  layer = 1,
+  x = 256,
+  y = 192,
+  width = 16,
+  height = 16,
+  destination_map = "Outside/a1",
+  sprite = "entities/switch",
+}
+
+pickable{
+  layer = 1,
+  x = 160,
+  y = 77,
+  treasure_name = "triforce",
+}
+
+destructible{
+  layer = 1,
+  x = 72,
+  y = 205,
+  sprite = "entities/bush_purple",
+  weight = 1000,
+  can_be_cut = true,
+}
+
+npc{
+  layer = 1,
+  x = 160,
+  y = 181,
+  direction = 3,
+  subtype = 0,
+  behavior = "dialog#signs.boss.1",
+}
+
+enemy{
+  layer = 1,
+  x = 160,
+  y = 149,
+  direction = 0,
+  breed = "ganon",
+}
+
+pickable{
+  layer = 1,
+  x = 96,
+  y = 205,
+  treasure_name = "sword",
+  treasure_variant = 3,
+}
+
+custom_entity{
+  layer = 1,
+  x = 72,
+  y = 181,
+  direction = 0,
+  sprite = "entities/fight_button",
+}
+
+wall{
+  layer = 1,
+  x = 208,
+  y = 168,
+  width = 48,
+  height = 24,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+custom_entity{
+  layer = 1,
+  x = 232,
+  y = 181,
+  direction = 0,
+  sprite = "entities/mercy_button",
+}
+
