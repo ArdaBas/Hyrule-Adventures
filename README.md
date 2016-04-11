@@ -7,3 +7,7 @@ Update  1.0:
 Update 1.01
 
 1. Start Re-making everything!
+
+Update 1.02
+
+1. Done with Re-making everything!
