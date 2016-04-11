@@ -1,0 +1,7 @@
+animation{
+  name = "stopped",
+  src_image = "entities/Fight.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 56, frame_height = 32, origin_x = 28, origin_y = 16 },
+  },
+}

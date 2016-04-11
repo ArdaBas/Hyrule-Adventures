@@ -239,6 +239,13 @@ animation{
   },
 }
 animation{
+  name = "link_toy",
+  src_image = "npc/Green Npc.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 8, frame_height = 16, origin_x = 4, origin_y = 8 },
+  },
+}
+animation{
   name = "magic_bar",
   src_image = "entities/items.png",
   directions = {
@@ -365,11 +372,11 @@ animation{
 }
 animation{
   name = "shield",
-  src_image = "entities/items.png",
+  src_image = "npc/Green Npc.png",
   directions = {
-    { x = 544, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-    { x = 544, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-    { x = 544, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 48, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+    { x = 64, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+    { x = 80, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
   },
 }
 animation{
@@ -381,11 +388,11 @@ animation{
 }
 animation{
   name = "sword",
-  src_image = "entities/items.png",
+  src_image = "npc/Green Npc.png",
   directions = {
-    { x = 528, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-    { x = 528, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-    { x = 528, y = 16, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21 },
+    { x = 32, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+    { x = 32, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+    { x = 16, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
   },
 }
 animation{
@@ -402,5 +409,14 @@ animation{
     { x = 512, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 512, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 512, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "violin",
+  src_image = "entities/Violin.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 12 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 12 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 12 },
   },
 }
