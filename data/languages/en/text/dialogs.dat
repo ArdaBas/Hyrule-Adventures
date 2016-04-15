@@ -15,6 +15,20 @@ A Sword!
 }
 
 dialog{
+  id = "_shut",
+  text = [[
+Its Shut.
+]]
+}
+
+dialog{
+  id = "_treasure.lamp.1",
+  text = [[
+You got the Lamp
+]]
+}
+
+dialog{
   id = "_treasure.shield.1",
   text = [[
 Its a Shield!
@@ -38,6 +52,13 @@ dialog{
 }
 
 dialog{
+  id = "cutscene.a2.1",
+  text = [[
+Hello Link!
+]]
+}
+
+dialog{
   id = "save_quit",
   text = [[
 Wanna Quit
@@ -53,3 +74,11 @@ dialog{
 Hyrule Field
 ]]
 }
+
+dialog{
+  id = "signs.a5.1",
+  text = [[
+--) Desert
+]]
+}
+
