@@ -2586,8 +2586,8 @@ tile{
   layer = 0,
   x = 128,
   y = 264,
-  width = 32,
-  height = 96,
+  width = 64,
+  height = 32,
   pattern = "grass.tree_small.green.2",
 }
 
@@ -2614,6 +2614,7 @@ destination{
   x = 56,
   y = 149,
   direction = 3,
+  starting_location_mode = "yes",
   default = true,
 }
 
@@ -2666,7 +2667,7 @@ dynamic_tile{
   y = 200,
   pattern = "grass.barrier.border.2",
   width = 16,
-  height = 48,
+  height = 64,
   enabled_at_start = true,
 }
 
@@ -2677,12 +2678,5 @@ teletransporter{
   width = 480,
   height = 16,
   destination_map = "Outside/E2",
-}
-
-pickable{
-  layer = 0,
-  x = 24,
-  y = 157,
-  treasure_name = "violin",
 }
 
