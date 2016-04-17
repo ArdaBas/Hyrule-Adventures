@@ -913,7 +913,7 @@ tile{
   layer = 0,
   x = 48,
   y = 104,
-  width = 16,
+  width = 48,
   height = 8,
   pattern = "cliff.top.1",
 }
@@ -8723,8 +8723,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 72,
-  y = 104,
+  x = 120,
+  y = 144,
   width = 16,
   height = 40,
   pattern = "ladder",
@@ -8732,8 +8732,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 88,
-  y = 104,
+  x = 136,
+  y = 144,
   width = 8,
   height = 40,
   pattern = "ladder.border.2",
@@ -8741,8 +8741,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 64,
-  y = 104,
+  x = 112,
+  y = 144,
   width = 8,
   height = 40,
   pattern = "ladder.border.1",
@@ -8929,8 +8929,8 @@ destructible{
 
 wall{
   layer = 0,
-  x = 72,
-  y = 104,
+  x = 120,
+  y = 144,
   width = 16,
   height = 40,
   stops_npcs = true,
@@ -8942,8 +8942,8 @@ wall{
 sensor{
   name = "to_layer_1_sensor",
   layer = 0,
-  x = 80,
-  y = 133,
+  x = 128,
+  y = 173,
   width = 16,
   height = 16,
 }
@@ -9765,8 +9765,8 @@ tile{
 dynamic_tile{
   name = "invisible_tile_2",
   layer = 1,
-  x = 72,
-  y = 104,
+  x = 120,
+  y = 144,
   pattern = "ladder",
   width = 16,
   height = 40,
@@ -9775,8 +9775,8 @@ dynamic_tile{
 
 wall{
   layer = 1,
-  x = 72,
-  y = 104,
+  x = 120,
+  y = 144,
   width = 16,
   height = 40,
   stops_npcs = true,
@@ -9787,8 +9787,8 @@ wall{
 dynamic_tile{
   name = "invisible_tile",
   layer = 1,
-  x = 64,
-  y = 104,
+  x = 112,
+  y = 144,
   pattern = "ladder.border.1",
   width = 8,
   height = 40,
@@ -9798,8 +9798,8 @@ dynamic_tile{
 dynamic_tile{
   name = "invisible_tile_3",
   layer = 1,
-  x = 88,
-  y = 104,
+  x = 136,
+  y = 144,
   pattern = "ladder.border.2",
   width = 8,
   height = 40,
@@ -9809,8 +9809,8 @@ dynamic_tile{
 sensor{
   name = "to_layer_0_sensor",
   layer = 1,
-  x = 80,
-  y = 141,
+  x = 128,
+  y = 181,
   width = 16,
   height = 16,
 }

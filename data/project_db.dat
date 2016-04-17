@@ -5,6 +5,7 @@ map{ id = "Outside/a3", description = "Lost Woods" }
 map{ id = "Outside/a4", description = "Path" }
 map{ id = "Outside/a5", description = "Kakariko" }
 map{ id = "Outside/e2", description = "Lake" }
+map{ id = "Outside/e3", description = "Mountin" }
 map{ id = "Outside/house/Links_house", description = "Links House" }
 map{ id = "Outside/house/mini_dun1", description = "Mini Dun" }
 map{ id = "Test_map_1", description = "Test 1" }

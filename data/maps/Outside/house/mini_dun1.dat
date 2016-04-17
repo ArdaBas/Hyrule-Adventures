@@ -908,24 +908,6 @@ tile{
   pattern = "floor.1",
 }
 
-custom_entity{
-  layer = 1,
-  x = 184,
-  y = 453,
-  direction = 0,
-  sprite = "entities/fire",
-  model = "fire",
-}
-
-custom_entity{
-  layer = 1,
-  x = 168,
-  y = 453,
-  direction = 0,
-  sprite = "entities/fire",
-  model = "fire",
-}
-
 wall{
   layer = 1,
   x = 288,
