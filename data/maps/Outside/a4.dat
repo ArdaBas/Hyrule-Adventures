@@ -2624,7 +2624,7 @@ teletransporter{
   y = 120,
   width = 16,
   height = 16,
-  destination_map = "house/mini_dun1",
+  destination_map = "Outside/house/mini_dun1",
 }
 
 switch{

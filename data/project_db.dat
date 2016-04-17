@@ -1,8 +1,12 @@
+map{ id = "Outside/E1", description = "Desert" }
 map{ id = "Outside/a1", description = "Village" }
 map{ id = "Outside/a2", description = "Field 1" }
 map{ id = "Outside/a3", description = "Lost Woods" }
-map{ id = "Outside/a4", description = "kakariko village" }
+map{ id = "Outside/a4", description = "Path" }
+map{ id = "Outside/a5", description = "Kakariko" }
 map{ id = "Outside/e2", description = "Lake" }
+map{ id = "Outside/house/Links_house", description = "Links House" }
+map{ id = "Outside/house/mini_dun1", description = "Mini Dun" }
 map{ id = "Test_map_1", description = "Test 1" }
 map{ id = "caves/fairy_desert", description = "Desert Fairy Cave" }
 map{ id = "caves/fairy_forest", description = "Forest Fairy Cave" }

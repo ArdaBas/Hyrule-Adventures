@@ -1539,13 +1539,6 @@ crystal_block{
   subtype = 0,
 }
 
-pickable{
-  layer = 0,
-  x = 88,
-  y = 45,
-  treasure_name = "flippers",
-}
-
 tile{
   layer = 1,
   x = 56,
