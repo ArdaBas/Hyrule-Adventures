@@ -491,8 +491,8 @@ pickable{
 
 pickable{
   layer = 0,
-  x = 8,
-  y = 173,
+  x = 72,
+  y = 93,
   treasure_name = "arrow",
   treasure_variant = 3,
 }
