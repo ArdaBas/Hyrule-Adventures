@@ -458,6 +458,33 @@ tile{
   pattern = "grass.cliff.top.4",
 }
 
+tile{
+  layer = 0,
+  x = 136,
+  y = 24,
+  width = 8,
+  height = 40,
+  pattern = "ladder.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 24,
+  width = 8,
+  height = 40,
+  pattern = "ladder.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 24,
+  width = 16,
+  height = 40,
+  pattern = "ladder",
+}
+
 dynamic_tile{
   layer = 0,
   x = 288,
@@ -507,13 +534,6 @@ switch{
   sound = "secret",
   needs_block = false,
   inactivate_when_leaving = false,
-}
-
-pickable{
-  layer = 0,
-  x = 248,
-  y = 285,
-  treasure_name = "bow",
 }
 
 pickable{
@@ -821,6 +841,16 @@ teletransporter{
   transition = "scrolling",
   destination_map = "Outside/E1",
   destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = -16,
+  width = 576,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "Outside/e3",
 }
 
 tile{
