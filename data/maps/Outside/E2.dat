@@ -1,7 +1,7 @@
 properties{
   x = 0,
   y = 0,
-  width = 584,
+  width = 576,
   height = 464,
   min_layer = 0,
   max_layer = 2,
@@ -429,6 +429,33 @@ tile{
   width = 48,
   height = 16,
   pattern = "grass.hole",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.4",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 0,
+  width = 8,
+  height = 16,
+  pattern = "cliff.top.4",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 0,
+  width = 8,
+  height = 16,
+  pattern = "grass.cliff.top.4",
 }
 
 dynamic_tile{
