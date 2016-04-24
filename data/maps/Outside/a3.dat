@@ -861,7 +861,7 @@ teletransporter{
   y = 208,
   width = 16,
   height = 16,
-  destination_map = "Outside/a4",
+  destination_map = "Outside/house/mini_dun1",
 }
 
 teletransporter{

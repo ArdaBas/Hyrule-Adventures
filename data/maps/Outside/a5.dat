@@ -11,6 +11,24 @@ properties{
 
 tile{
   layer = 0,
+  x = 0,
+  y = 0,
+  width = 480,
+  height = 416,
+  pattern = "grass.soil",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 16,
+  width = 16,
+  height = 24,
+  pattern = "sand.soil",
+}
+
+tile{
+  layer = 0,
   x = 32,
   y = 368,
   width = 416,
@@ -25,15 +43,6 @@ tile{
   width = 16,
   height = 48,
   pattern = "sand.floor_big",
-}
-
-tile{
-  layer = 0,
-  x = 0,
-  y = 0,
-  width = 480,
-  height = 416,
-  pattern = "grass.soil",
 }
 
 tile{
@@ -803,15 +812,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 456,
-  y = 24,
-  width = 8,
-  height = 24,
-  pattern = "sand.soil",
-}
-
-tile{
-  layer = 0,
   x = 432,
   y = 200,
   width = 48,
@@ -826,6 +826,42 @@ tile{
   width = 24,
   height = 8,
   pattern = "sand.cliff.top.1",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 8,
+  width = 16,
+  height = 40,
+  pattern = "ladder",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 8,
+  width = 8,
+  height = 40,
+  pattern = "ladder.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 8,
+  width = 8,
+  height = 40,
+  pattern = "ladder.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 8,
+  width = 16,
+  height = 40,
+  pattern = "ladder",
 }
 
 door{
@@ -886,6 +922,37 @@ npc{
   subtype = 0,
   sprite = "entities/sign",
   behavior = "dialog#signs.a5.1",
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = -16,
+  width = 480,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "Outside/e3",
+  destination = "_side",
+}
+
+jumper{
+  layer = 0,
+  x = 32,
+  y = 8,
+  width = 112,
+  height = 8,
+  direction = 6,
+  jump_length = 48,
+}
+
+jumper{
+  layer = 0,
+  x = 176,
+  y = 8,
+  width = 256,
+  height = 8,
+  direction = 6,
+  jump_length = 48,
 }
 
 tile{

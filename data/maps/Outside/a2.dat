@@ -316,24 +316,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 368,
-  y = 440,
-  width = 16,
-  height = 16,
-  pattern = "grass.flower",
-}
-
-tile{
-  layer = 0,
-  x = 152,
-  y = 416,
-  width = 32,
-  height = 16,
-  pattern = "grass.flower",
-}
-
-tile{
-  layer = 0,
   x = 328,
   y = 472,
   width = 32,
@@ -530,42 +512,6 @@ tile{
   pattern = "grass.tree_small.green.1",
 }
 
-tile{
-  layer = 0,
-  x = 88,
-  y = 408,
-  width = 152,
-  height = 16,
-  pattern = "grass.barrier.border.1",
-}
-
-tile{
-  layer = 0,
-  x = 256,
-  y = 408,
-  width = 168,
-  height = 16,
-  pattern = "grass.barrier.border.1",
-}
-
-tile{
-  layer = 0,
-  x = 80,
-  y = 392,
-  width = 8,
-  height = 32,
-  pattern = "grass.barrier.border.1",
-}
-
-tile{
-  layer = 0,
-  x = 416,
-  y = 392,
-  width = 16,
-  height = 32,
-  pattern = "grass.barrier.border.1",
-}
-
 teletransporter{
   layer = 0,
   x = 0,
@@ -586,32 +532,6 @@ teletransporter{
   transition = "scrolling",
   destination_map = "Outside/a3",
   destination = "_side",
-}
-
-sensor{
-  name = "a_sensor",
-  layer = 0,
-  x = 96,
-  y = 405,
-  width = 336,
-  height = 16,
-}
-
-npc{
-  layer = 0,
-  x = 248,
-  y = 453,
-  direction = 1,
-  subtype = 1,
-  sprite = "npc/villager2",
-}
-
-destination{
-  name = "a_destination",
-  layer = 0,
-  x = 248,
-  y = 429,
-  direction = 3,
 }
 
 chest{
@@ -688,18 +608,6 @@ destructible{
   destruction_sound = "stone",
   weight = 1,
   damage_on_enemies = 2,
-}
-
-wall{
-  layer = 0,
-  x = 32,
-  y = 384,
-  width = 432,
-  height = 8,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
 }
 
 wall{
@@ -859,19 +767,6 @@ teletransporter{
   width = 16,
   height = 496,
   destination_map = "Outside/a2",
-}
-
-wall{
-  layer = 0,
-  x = 88,
-  y = 408,
-  width = 336,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
 }
 
 enemy{
