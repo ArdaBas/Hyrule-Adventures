@@ -1747,6 +1747,16 @@ destination{
   default = true,
 }
 
+teletransporter{
+  layer = 0,
+  x = 240,
+  y = 80,
+  width = 16,
+  height = 16,
+  destination_map = "Bosses/Undyne/room_1",
+  destination = "destination",
+}
+
 tile{
   layer = 1,
   x = 288,

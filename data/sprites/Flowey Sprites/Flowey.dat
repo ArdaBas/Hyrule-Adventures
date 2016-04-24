@@ -1,0 +1,8 @@
+animation{
+  name = "stopped",
+  src_image = "Flowey Sprites/RQRGAbu.png",
+  directions = {
+    { x = 344, y = 0, frame_width = 43, frame_height = 50, origin_x = 24, origin_y = 24 },
+    { x = 0, y = 96, frame_width = 43, frame_height = 44, origin_x = 24, origin_y = 20 },
+  },
+}

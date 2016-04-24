@@ -1,3 +1,4 @@
+map{ id = "Bosses/Undyne/room_1", description = "Room 1 Boss 1" }
 map{ id = "Outside/E1", description = "Desert" }
 map{ id = "Outside/a1", description = "Village" }
 map{ id = "Outside/a2", description = "Field 1" }
@@ -93,6 +94,7 @@ tileset{ id = "temple_blue", description = "Temple (blue)" }
 tileset{ id = "temple_green", description = "Temple (green)" }
 tileset{ id = "temple_yellow", description = "Temple (yellow)" }
 
+sprite{ id = "Flowey Sprites/Flowey", description = "Howdy" }
 sprite{ id = "enemies/agahnim", description = "Agahnim" }
 sprite{ id = "enemies/agahnim_lightning", description = "Agahnim's lightning" }
 sprite{ id = "enemies/armos", description = "Armos" }
@@ -309,6 +311,8 @@ music{ id = "legend", description = "Legend" }
 music{ id = "light_world_dungeon", description = "Dungeon (light world)" }
 music{ id = "lost_woods", description = "Lost Woods" }
 music{ id = "mini_game", description = "Mini game" }
+music{ id = "mus_dogsong", description = "Dog Song" }
+music{ id = "mus_undyneboss", description = "Spear of Justise" }
 music{ id = "overworld", description = "Overworld" }
 music{ id = "rabbit", description = "Turned into a rabbit" }
 music{ id = "sanctuary", description = "Sanctuary" }

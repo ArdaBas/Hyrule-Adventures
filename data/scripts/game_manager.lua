@@ -28,7 +28,6 @@ local function initialize_new_savegame(game)
   game:set_value("keyboard_look", "left control")
   game:set_value("keyboard_map", "p")
   game:set_value("keyboard_monsters", "m")
-  game:set_value("keyboard_run", "left shift")
   game:set_value("keyboard_save", "escape")
 end
 
@@ -42,7 +41,6 @@ local function initialize_existing_savegame(game)
     game:set_value("keyboard_map", "p")
     game:set_value("keyboard_monsters", "m")
     game:set_value("keyboard_save", "escape")
-    game:set_value("keyboard_run", "left shift")
   end
 end
 
@@ -118,7 +116,6 @@ function game_manager:create(file)
     local hero = game:get_hero()
     local speed = normal_walking_speed
     local modifiers = sol.input.get_key_modifiers()
-    local keyboard_run_pressed = sol.input.is_key_pressed(game:get_value("keyboard_run")) or modifiers["caps lock"] 
     local joypad_run_pressed = false
     local joypad_action = game:get_value("joypad_run")
     if joypad_action ~= nil then

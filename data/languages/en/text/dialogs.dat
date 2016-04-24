@@ -59,6 +59,13 @@ Hello Link!
 }
 
 dialog{
+  id = "dang_it",
+  text = [[
+Too weak!
+]]
+}
+
+dialog{
   id = "save_quit",
   text = [[
 Wanna Quit
