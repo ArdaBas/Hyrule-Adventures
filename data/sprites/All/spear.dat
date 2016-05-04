@@ -1,0 +1,10 @@
+animation{
+  name = "Stopped",
+  src_image = "All/spr_battlebg_1.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 625, frame_height = 275, origin_x = 8, origin_y = 8 },
+    { x = 0, y = 0, frame_width = 625, frame_height = 275, origin_x = 8, origin_y = 8 },
+    { x = 0, y = 0, frame_width = 625, frame_height = 275, origin_x = 8, origin_y = 8 },
+    { x = 0, y = 0, frame_width = 625, frame_height = 275, origin_x = 8, origin_y = 8 },
+  },
+}

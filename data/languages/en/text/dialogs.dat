@@ -29,6 +29,13 @@ You got the Lamp
 }
 
 dialog{
+  id = "_treasure.magic_crystal.1",
+  text = [[
+*You got a SOUL!
+]]
+}
+
+dialog{
   id = "_treasure.shield.1",
   text = [[
 Its a Shield!
@@ -68,10 +75,10 @@ Too weak!
 dialog{
   id = "save_quit",
   text = [[
-Wanna Quit
-$?NO!
-$?YES!!!
-$?Quit but DO NOT save!
+Save?
+$?No.
+$?Yes.
+$?Quit.
 ]]
 }
 

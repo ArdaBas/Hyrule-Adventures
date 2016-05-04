@@ -1,0 +1,10 @@
+animation{
+  name = "stopped",
+  src_image = "All/spr_5_temexampl_0.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 92, frame_height = 88, origin_x = 8, origin_y = 8 },
+    { x = 0, y = 0, frame_width = 92, frame_height = 88, origin_x = 8, origin_y = 8 },
+    { x = 0, y = 0, frame_width = 92, frame_height = 88, origin_x = 8, origin_y = 8 },
+    { x = 0, y = 0, frame_width = 92, frame_height = 88, origin_x = 8, origin_y = 8 },
+  },
+}

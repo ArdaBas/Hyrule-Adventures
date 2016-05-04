@@ -1,4 +1,5 @@
 map{ id = "Bosses/Undyne/room_1", description = "Room 1 Boss 1" }
+map{ id = "Bosses/Undyne/room_2", description = "Room 2 Boss 1" }
 map{ id = "Outside/E1", description = "Desert" }
 map{ id = "Outside/a1", description = "Village" }
 map{ id = "Outside/a2", description = "Field 1" }
@@ -94,6 +95,11 @@ tileset{ id = "temple_blue", description = "Temple (blue)" }
 tileset{ id = "temple_green", description = "Temple (green)" }
 tileset{ id = "temple_yellow", description = "Temple (yellow)" }
 
+sprite{ id = "All/act", description = "Act" }
+sprite{ id = "All/knife", description = "Knife" }
+sprite{ id = "All/soul_blue", description = "Soul blue" }
+sprite{ id = "All/spear", description = "Battle" }
+sprite{ id = "All/temmie", description = "Temmie" }
 sprite{ id = "Flowey Sprites/Flowey", description = "Howdy" }
 sprite{ id = "enemies/agahnim", description = "Agahnim" }
 sprite{ id = "enemies/agahnim_lightning", description = "Agahnim's lightning" }
@@ -187,6 +193,7 @@ sprite{ id = "entities/door_weak_block", description = "Door (weak block)" }
 sprite{ id = "entities/door_weak_wall", description = "Door (weak wall)" }
 sprite{ id = "entities/drinking_potion", description = "Potion to drink" }
 sprite{ id = "entities/explosion", description = "Explosion" }
+sprite{ id = "entities/fight_button", description = "Fight button" }
 sprite{ id = "entities/fire", description = "Fire" }
 sprite{ id = "entities/grass", description = "Grass" }
 sprite{ id = "entities/hammer_stake_brown", description = "Hammer stake (brown)" }
@@ -205,6 +212,7 @@ sprite{ id = "entities/ice_beam", description = "Ice beam" }
 sprite{ id = "entities/items", description = "Items" }
 sprite{ id = "entities/prison_door", description = "Prison door" }
 sprite{ id = "entities/rupee_icon", description = "Money icon" }
+sprite{ id = "entities/save_point", description = "Save Point" }
 sprite{ id = "entities/shadow", description = "Shadow" }
 sprite{ id = "entities/sign", description = "Sign" }
 sprite{ id = "entities/snores", description = "Snoring (zzz)" }

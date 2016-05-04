@@ -1,0 +1,10 @@
+animation{
+  name = "stopped",
+  src_image = "All/spr_actbt_center_0.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 110, frame_height = 42, origin_x = 8, origin_y = 8 },
+    { x = 0, y = 0, frame_width = 110, frame_height = 42, origin_x = 8, origin_y = 8 },
+    { x = 0, y = 0, frame_width = 110, frame_height = 42, origin_x = 8, origin_y = 8 },
+    { x = 0, y = 0, frame_width = 110, frame_height = 42, origin_x = 8, origin_y = 8 },
+  },
+}

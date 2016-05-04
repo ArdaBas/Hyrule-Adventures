@@ -1,0 +1,10 @@
+animation{
+  name = "stopped",
+  src_image = "entities/save_point.png",
+  directions = {
+    { x = 8, y = 0, frame_width = 56, frame_height = 48, origin_x = 28, origin_y = 24 },
+    { x = 8, y = 0, frame_width = 56, frame_height = 48, origin_x = 28, origin_y = 24 },
+    { x = 8, y = 0, frame_width = 56, frame_height = 48, origin_x = 28, origin_y = 24 },
+    { x = 8, y = 0, frame_width = 56, frame_height = 48, origin_x = 28, origin_y = 24 },
+  },
+}

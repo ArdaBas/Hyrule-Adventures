@@ -28,7 +28,6 @@ local function initialize_new_savegame(game)
   game:set_value("keyboard_look", "left control")
   game:set_value("keyboard_map", "p")
   game:set_value("keyboard_monsters", "m")
-  game:set_value("keyboard_save", "escape")
 end
 
 -- Updates values for an existing new savegame of this quest.
@@ -40,7 +39,6 @@ local function initialize_existing_savegame(game)
     game:set_value("keyboard_commands", "f1")
     game:set_value("keyboard_map", "p")
     game:set_value("keyboard_monsters", "m")
-    game:set_value("keyboard_save", "escape")
   end
 end
 

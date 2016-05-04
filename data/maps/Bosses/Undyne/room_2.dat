@@ -1,0 +1,415 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "cave",
+  music = "mus_undyneboss",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 32,
+  width = 256,
+  height = 176,
+  pattern = "floor.11",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 0,
+  width = 272,
+  height = 24,
+  pattern = "wall.1",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 24,
+  width = 24,
+  height = 192,
+  pattern = "wall.3",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 216,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 216,
+  width = 272,
+  height = 24,
+  pattern = "wall.2",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 216,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 24,
+  width = 24,
+  height = 192,
+  pattern = "wall.4",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 24,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 24,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 208,
+  width = 256,
+  height = 8,
+  pattern = "wall_border.2",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 24,
+  width = 256,
+  height = 8,
+  pattern = "wall_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 32,
+  width = 8,
+  height = 176,
+  pattern = "wall_border.3",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 32,
+  width = 8,
+  height = 176,
+  pattern = "wall_border.4",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 88,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "barrier.1",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 96,
+  width = 8,
+  height = 24,
+  pattern = "barrier.2",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 120,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "door.4",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 96,
+  width = 16,
+  height = 8,
+  pattern = "door.4.support.1",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 120,
+  width = 16,
+  height = 8,
+  pattern = "door.4.support.2",
+}
+
+dynamic_tile{
+  name = "go_tile",
+  layer = 1,
+  x = 72,
+  y = 96,
+  pattern = "barrier.2",
+  width = 8,
+  height = 24,
+  enabled_at_start = true,
+}
+
+enemy{
+  name = "f_enemy",
+  layer = 1,
+  x = 120,
+  y = 117,
+  direction = 0,
+  breed = "zora_feet",
+  savegame_variable = "s1",
+}
+
+destination{
+  name = "destination",
+  layer = 1,
+  x = 288,
+  y = 117,
+  direction = 2,
+}
+
+crystal{
+  layer = 1,
+  x = 136,
+  y = 45,
+}
+
+crystal_block{
+  layer = 1,
+  x = 96,
+  y = 80,
+  width = 48,
+  height = 16,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 1,
+  x = 96,
+  y = 120,
+  width = 48,
+  height = 16,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 1,
+  x = 144,
+  y = 96,
+  width = 16,
+  height = 32,
+  subtype = 1,
+}
+
+block{
+  layer = 1,
+  x = 120,
+  y = 45,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
+  layer = 1,
+  x = 136,
+  y = 61,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+  maximum_moves = 1,
+}
+
+block{
+  layer = 1,
+  x = 152,
+  y = 45,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+door{
+  layer = 1,
+  x = 296,
+  y = 104,
+  direction = 0,
+  sprite = "entities/door_normal",
+}
+
+enemy{
+  name = "a1_enemy",
+  layer = 1,
+  x = 40,
+  y = 117,
+  direction = 0,
+  breed = "medusa",
+}
+
+sensor{
+  name = "s_sensor",
+  layer = 1,
+  x = 104,
+  y = 109,
+  width = 48,
+  height = 32,
+}
+
+crystal_block{
+  layer = 1,
+  x = 80,
+  y = 96,
+  width = 16,
+  height = 32,
+  subtype = 1,
+}
+
+pickable{
+  layer = 1,
+  x = 64,
+  y = 109,
+  treasure_name = "magic_crystal",
+}
+
+tile{
+  layer = 2,
+  x = 312,
+  y = 56,
+  width = 8,
+  height = 112,
+  pattern = "door_cache.4",
+}
+
+tile{
+  layer = 2,
+  x = 312,
+  y = 96,
+  width = 8,
+  height = 32,
+  pattern = "door_top.closed.4",
+}
+

@@ -378,6 +378,33 @@ tile{
   pattern = "barrier.border",
 }
 
+tile{
+  layer = 1,
+  x = 8,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "door.3",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = 184,
+  width = 16,
+  height = 8,
+  pattern = "door.3.support.1",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = 208,
+  width = 16,
+  height = 8,
+  pattern = "door.3.support.2",
+}
+
 wall{
   layer = 1,
   x = 176,
@@ -407,7 +434,7 @@ enemy{
   x = 160,
   y = 445,
   direction = 1,
-  breed = "skeleton",
+  breed = "zora_feet",
   treasure_savegame_variable = "lol",
 }
 
@@ -472,13 +499,24 @@ block{
   maximum_moves = 1,
 }
 
-sensor{
-  name = "s_sensor",
+destructible{
   layer = 1,
-  x = 120,
-  y = 197,
+  x = 32,
+  y = 205,
+  treasure_name = "rupee",
+  treasure_variant = 2,
+  sprite = "entities/bush",
+  weight = 5,
+  can_be_cut = true,
+}
+
+teletransporter{
+  layer = 1,
+  x = 8,
+  y = 192,
   width = 16,
-  height = 32,
+  height = 16,
+  destination_map = "Bosses/Undyne/room_2",
 }
 
 tile{
@@ -497,5 +535,23 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.2",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 144,
+  width = 8,
+  height = 112,
+  pattern = "door_cache.3",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 184,
+  width = 8,
+  height = 32,
+  pattern = "door_top.3",
 }
 
