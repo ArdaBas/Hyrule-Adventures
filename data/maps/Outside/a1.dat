@@ -1744,6 +1744,7 @@ destination{
   x = 72,
   y = 109,
   direction = 3,
+  starting_location_mode = "yes",
   default = true,
 }
 

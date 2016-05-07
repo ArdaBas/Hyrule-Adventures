@@ -16,7 +16,7 @@ local game_manager = {}
 
 -- Sets initial values for a new savegame of this quest.
 local function initialize_new_savegame(game)
-  game:set_starting_location("Outside/house/Links_house")
+  game:set_starting_location("Outside/house/Links_house")  -- TODO intro
   game:set_max_money(999)
   game:set_max_life(6)
   game:set_life(game:get_max_life())
@@ -28,6 +28,8 @@ local function initialize_new_savegame(game)
   game:set_value("keyboard_look", "left control")
   game:set_value("keyboard_map", "p")
   game:set_value("keyboard_monsters", "m")
+  game:set_value("keyboard_run", "left shift")
+  game:set_value("keyboard_save", "escape")
 end
 
 -- Updates values for an existing new savegame of this quest.
@@ -39,6 +41,8 @@ local function initialize_existing_savegame(game)
     game:set_value("keyboard_commands", "f1")
     game:set_value("keyboard_map", "p")
     game:set_value("keyboard_monsters", "m")
+    game:set_value("keyboard_save", "escape")
+    game:set_value("keyboard_run", "left shift")
   end
 end
 
@@ -114,6 +118,7 @@ function game_manager:create(file)
     local hero = game:get_hero()
     local speed = normal_walking_speed
     local modifiers = sol.input.get_key_modifiers()
+    local keyboard_run_pressed = sol.input.is_key_pressed(game:get_value("keyboard_run")) or modifiers["caps lock"] 
     local joypad_run_pressed = false
     local joypad_action = game:get_value("joypad_run")
     if joypad_action ~= nil then

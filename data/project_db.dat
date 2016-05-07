@@ -321,6 +321,7 @@ music{ id = "lost_woods", description = "Lost Woods" }
 music{ id = "mini_game", description = "Mini game" }
 music{ id = "mus_dogsong", description = "Dog Song" }
 music{ id = "mus_undyneboss", description = "Spear of Justise" }
+music{ id = "mus_waterfall", description = "Lake" }
 music{ id = "overworld", description = "Overworld" }
 music{ id = "rabbit", description = "Turned into a rabbit" }
 music{ id = "sanctuary", description = "Sanctuary" }
