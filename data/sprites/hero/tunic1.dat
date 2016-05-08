@@ -1,11 +1,11 @@
 animation{
   name = "stopped",
-  src_image = "hero/stopped.tunic.png",
+  src_image = "hero/walking.1..png",
   directions = {
-    { x = 0, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
-    { x = 24, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
-    { x = 72, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
-    { x = 96, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 26, origin_x = 8, origin_y = 12 },
+    { x = 0, y = 64, frame_width = 16, frame_height = 32, origin_x = 7, origin_y = 14 },
+    { x = 0, y = 96, frame_width = 16, frame_height = 24, origin_x = 4, origin_y = 12 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 32, origin_x = 7, origin_y = 18 },
   },
 }
 animation{
@@ -353,14 +353,14 @@ animation{
 }
 animation{
   name = "walking",
-  src_image = "hero/walking.tunic.png",
+  src_image = "hero/walking.1..png",
   frame_delay = 100,
   frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 8 },
-    { x = 0, y = 32, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 8 },
-    { x = 0, y = 96, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 8 },
-    { x = 0, y = 128, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 8 },
+    { x = 0, y = 32, frame_width = 24, frame_height = 30, origin_x = 8, origin_y = 16, num_frames = 2 },
+    { x = 0, y = 64, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 16, num_frames = 2 },
+    { x = 0, y = 96, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 12, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 32, origin_x = 12, origin_y = 16, num_frames = 2 },
   },
 }
 animation{
