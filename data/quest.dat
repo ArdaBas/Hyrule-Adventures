@@ -1,14 +1,13 @@
 quest{
   solarus_version = "1.5",
   write_dir = "zelda_tri",
-  title = "The Legend of Zelda: Hyrule Adventures",
-  short_description = "Save Hyrule from the Monster Invasion!",
+  title = "The Legend of Zelda: ZeldaTale",
+  short_description = "Fight the Monsters of the Undergrond",
   long_description = [[
-A Original fan-game from GBArda!
-Monsters are attacking Hyrule!
-Help Link stop them in this amazing Quest! ]],
+What would Undertale look like if it was a game in ARPG style?
+Find out in this adventure!]],
   author = "GBArda",
-  quest_version = "0.1",
+  quest_version = "0.0.2",
   release_date = "",
   website = "",
   normal_quest_size = "320x240",

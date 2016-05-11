@@ -1758,6 +1758,21 @@ teletransporter{
   destination = "destination",
 }
 
+pickable{
+  layer = 0,
+  x = 72,
+  y = 125,
+  treasure_name = "bow",
+}
+
+pickable{
+  layer = 0,
+  x = 72,
+  y = 141,
+  treasure_name = "arrow",
+  treasure_variant = 2,
+}
+
 tile{
   layer = 1,
   x = 288,
