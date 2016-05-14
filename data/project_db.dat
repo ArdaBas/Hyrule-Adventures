@@ -1,5 +1,7 @@
 map{ id = "Bosses/Undyne/room_1", description = "Room 1 Boss 1" }
 map{ id = "Bosses/Undyne/room_2", description = "Room 2 Boss 1" }
+map{ id = "Dungeon 1/floor_0", description = "Dungeon 1 floor 0" }
+map{ id = "Dungeon 1/floor_1", description = "Dungeon 1 floor 1" }
 map{ id = "Outside/E1", description = "Desert" }
 map{ id = "Outside/a1", description = "Village" }
 map{ id = "Outside/a2", description = "Field 1" }
@@ -224,6 +226,7 @@ sprite{ id = "entities/stone_black_skull", description = "Stone (black skull)" }
 sprite{ id = "entities/stone_white", description = "Stone (white)" }
 sprite{ id = "entities/stone_white_skull", description = "Stone (white skull)" }
 sprite{ id = "entities/switch", description = "Switch" }
+sprite{ id = "entities/teletransporter", description = "Teleporter" }
 sprite{ id = "entities/torch", description = "Torch" }
 sprite{ id = "entities/turtle_rock_entrance", description = "Turtle Rock entrance" }
 sprite{ id = "entities/vase", description = "Vase" }
@@ -315,11 +318,11 @@ music{ id = "ganon_appears", description = "Ganon appears" }
 music{ id = "ganon_battle", description = "Ganon battle" }
 music{ id = "ganon_theme", description = "Ganon theme" }
 music{ id = "great_fairy", description = "Great Fairy" }
-music{ id = "legend", description = "Legend" }
 music{ id = "light_world_dungeon", description = "Dungeon (light world)" }
 music{ id = "lost_woods", description = "Lost Woods" }
 music{ id = "mini_game", description = "Mini game" }
 music{ id = "mus_dogsong", description = "Dog Song" }
+music{ id = "mus_ruins", description = "Dungeon 1" }
 music{ id = "mus_undyneboss", description = "Spear of Justise" }
 music{ id = "mus_waterfall", description = "Lake" }
 music{ id = "overworld", description = "Overworld" }

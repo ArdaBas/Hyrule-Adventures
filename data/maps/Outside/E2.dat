@@ -513,6 +513,33 @@ tile{
   pattern = "grass.cliff.3",
 }
 
+tile{
+  layer = 0,
+  x = 24,
+  y = 104,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 160,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "grass.weed_big",
+}
+
 dynamic_tile{
   layer = 0,
   x = 288,

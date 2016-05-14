@@ -85,7 +85,7 @@ tile{
   layer = 0,
   x = 32,
   y = 32,
-  width = 384,
+  width = 400,
   height = 16,
   pattern = "grass.cliff.1",
 }
@@ -515,18 +515,9 @@ tile{
 
 tile{
   layer = 0,
-  x = 16,
-  y = 0,
-  width = 16,
-  height = 16,
-  pattern = "cliff.top.border.diag.2",
-}
-
-tile{
-  layer = 0,
-  x = 32,
+  x = 0,
   y = 32,
-  width = 400,
+  width = 32,
   height = 16,
   pattern = "grass.cliff.1",
 }
@@ -560,72 +551,27 @@ tile{
 
 tile{
   layer = 0,
-  x = 16,
-  y = 32,
-  width = 16,
-  height = 16,
-  pattern = "grass.cliff.diag.2",
-}
-
-tile{
-  layer = 0,
   x = 0,
   y = 16,
-  width = 16,
-  height = 16,
-  pattern = "grass.cliff.diag.2",
-}
-
-tile{
-  layer = 0,
-  x = 0,
-  y = 0,
-  width = 16,
-  height = 16,
-  pattern = "grass.cliff.corner_reverse.diag.1",
-}
-
-tile{
-  layer = 0,
-  x = 24,
-  y = 0,
-  width = 8,
-  height = 8,
-  pattern = "grass.cliff.top.diag.2",
-}
-
-tile{
-  layer = 0,
-  x = 16,
-  y = 16,
-  width = 16,
-  height = 16,
-  pattern = "cliff.diag.2",
-}
-
-tile{
-  layer = 0,
-  x = 32,
-  y = 16,
-  width = 384,
+  width = 32,
   height = 16,
   pattern = "cliff.1",
 }
 
 tile{
   layer = 0,
-  x = 32,
+  x = 0,
   y = 8,
-  width = 400,
+  width = 48,
   height = 8,
   pattern = "cliff.top.1",
 }
 
 tile{
   layer = 0,
-  x = 32,
+  x = 0,
   y = 0,
-  width = 384,
+  width = 32,
   height = 8,
   pattern = "grass.cliff.top.1",
 }
@@ -937,9 +883,9 @@ teletransporter{
 
 jumper{
   layer = 0,
-  x = 32,
+  x = 0,
   y = 8,
-  width = 112,
+  width = 144,
   height = 8,
   direction = 6,
   jump_length = 48,
