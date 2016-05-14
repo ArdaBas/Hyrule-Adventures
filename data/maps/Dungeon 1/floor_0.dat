@@ -987,6 +987,14 @@ enemy{
   breed = "gibdo",
 }
 
+pickable{
+  layer = 1,
+  x = 432,
+  y = 549,
+  treasure_name = "sword",
+  treasure_variant = 2,
+}
+
 tile{
   layer = 2,
   x = 200,

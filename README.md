@@ -16,3 +16,8 @@ Update 1.03
 
 1. Getting help aimac
 2. More Maps
+
+Update 1.04
+
+Turning ALTTP link sprites to Oot Link sprites!
+25% done!
