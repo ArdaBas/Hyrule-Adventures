@@ -22,6 +22,14 @@ Its Shut.
 }
 
 dialog{
+  id = "_treasure.hookshot.1",
+  text = [[
+You found a hookshot!
+Use it to reach things in the distance!
+]]
+}
+
+dialog{
   id = "_treasure.lamp.1",
   text = [[
 You got the Lamp
